@@ -162,6 +162,7 @@ def Reference(doc, output_file="reference.txt"):
                             line += f"(ouverture échouée: {e})"
                 else:
                     line = f"Référence {compteur} : {raw_ref}  -->  (AUCUN PDF TROUVÉ, meilleur score={s:.2f})\n"
+                    print(f"Il y'a un problème avec référence {raw_ref} à la page {i + 1}")
                 ref.write(line)
             ref.write("\n")
 
