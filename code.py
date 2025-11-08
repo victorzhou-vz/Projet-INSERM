@@ -35,7 +35,7 @@ def Reference(doc, output_file="reference.txt"):
 				ref.write(f"Référence {compteur} : {code[j]}\n")
 			ref.write("\n")
 	return
-
-Reference(doc)
+if __name__ == "__main__":
+	Reference(doc)
 
 

@@ -1,6 +1,7 @@
 import os, glob, unicodedata, difflib, subprocess, sys
 import re
 from PyPDF2 import PdfReader
+import json
 
 PDF_TO_SCAN_DIR = "References/"          # dossier où se trouvent les PDFs des références
 OPEN_MATCHED_PDFS = False      # passe à True si tu veux ouvrir automatiquement
@@ -166,7 +167,80 @@ def Reference(doc, output_file="reference.txt"):
                 ref.write(line)
             ref.write("\n")
 
+
+
+PDF_TO_SCAN_DIR = "References/"
+PDF_INDEX = list_pdf_files(PDF_TO_SCAN_DIR)
+OPEN_MATCHED_PDFS = False # On le laisse ici au cas où, mais il n'est plus utilisé
+
+# --- Pipeline principal MODIFIÉ : Extrait et prépare les tâches JSON ---
+
+def create_verification_jobs(doc, output_json="verification_jobs.json", context_window=250):
+    """
+    Extrait les citations, le contexte, et matche les PDF.
+    Génère un fichier JSON de "tâches de vérification" pour le script suivant.
+    """
+    nombre_de_pages = len(doc.pages)
+    compteur = 0
+    jobs = [] # Liste pour stocker les tâches
+    
+    # Regex pour trouver les citations
+    xp_code_ref = r"~~(.*?)~~"
+
+    for i in range(nombre_de_pages):
+        page = doc.pages[i]
+        text = page.extract_text() or ""
+        
+        # Utiliser finditer pour obtenir la position des correspondances
+        matches = list(re.finditer(xp_code_ref, text, re.DOTALL))
+        
+        for match in matches:
+            compteur += 1
+            raw_ref = match.group(1).replace("\n", " ").strip()
+            
+            # 1. Extraire le contexte
+            start_idx = max(0, match.start() - context_window)
+            end_idx = min(len(text), match.end() + context_window)
+            # Nettoyer le contexte des sauts de ligne pour le JSON
+            context = text[start_idx : end_idx].replace("\n", " ").strip()
+            
+            # 2. Trouver le meilleur PDF (votre code)
+            meta, match_score = find_best_pdf_for_reference(raw_ref, PDF_INDEX)
+            
+            job_info = {
+                "id": f"ref_{compteur}",
+                "page": i + 1,
+                "raw_citation": raw_ref,
+                "citation_context": context
+            }
+            
+            if meta:
+                job_info["status"] = "PDF_FOUND"
+                job_info["matched_pdf_path"] = meta["path"]
+                job_info["pdf_filename"] = meta["base"]
+                job_info["file_match_score"] = round(match_score, 2)
+            else:
+                job_info["status"] = "PDF_NOT_FOUND"
+                job_info["file_match_score"] = round(match_score, 2)
+                print(f"Problème (PDF non trouvé) pour '{raw_ref}' (Page {i + 1})")
+
+            jobs.append(job_info)
+
+    # 3. Sauvegarder les tâches dans un fichier JSON
+    with open(output_json, "w", encoding="utf-8") as f:
+        json.dump(jobs, f, indent=4, ensure_ascii=False)
+        
+    print(f"Terminé. {len(jobs)} tâches de vérification écrites dans '{output_json}'.")
+
 # Lance le traitement
 if __name__ == "__main__":
     Reference(doc)
     print("Terminé. Voir 'reference.txt'.")
+    pdf_path = "./essai.pdf" # Assurez-vous que ce chemin est correct
+    try:
+        doc = PdfReader(pdf_path)
+        create_verification_jobs(doc)
+    except FileNotFoundError:
+        print(f"Erreur : Le fichier '{pdf_path}' n'a pas été trouvé.")
+    except Exception as e:
+        print(f"Une erreur est survenue lors de la lecture du PDF: {e}")
