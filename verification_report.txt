@@ -5,115 +5,115 @@ Référence (Page 1): Holland M,  2014
   Contexte : "...Coût social de l’alcool en France et envergure économique du secteur     Introduction   Les incidences négatives socio -sanitaires des phénomènes d’ampleur s’apprécient de  plus en plus souvent sous leur aspect économique. La pollution  (~~Holland M,  2014~~) , certaines formes de criminalité  (~~Chalfin A, 2015~~) , la congestion  automobile  (~~Mao L -Z, Zhu H -G, Duan L -R, 2012~~)  sont ainsi des objets  d’évaluation de coût social dépassant les seuls in dicateurs de morbi -mortalité, de nuits  d’hô..."
   Fichier PDF : Holland M 2014 - Costs of air pollution.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits Pertinents discutent des coûts de dommages liés à la pollution de l'air par les installations industrielles en Europe, normalisés par le PIB, mais ne mentionnent pas spécifiquement le coût social de l'alcool en France ou l'envergure économique du secteur de l'alcool.
+  Justification : Les Extraits Pertinents traitent des coûts de la pollution de l'air par les installations industrielles en Europe, tandis que le Contexte de Citation porte sur le coût social de l'alcool en France. Les sujets sont distincts et ne soutiennent pas l'affirmation du Contexte.
 --------------------
 Référence (Page 1): Chalfin A, 2015
   Contexte : "...économique du secteur     Introduction   Les incidences négatives socio -sanitaires des phénomènes d’ampleur s’apprécient de  plus en plus souvent sous leur aspect économique. La pollution  (~~Holland M,  2014~~) , certaines formes de criminalité  (~~Chalfin A, 2015~~) , la congestion  automobile  (~~Mao L -Z, Zhu H -G, Duan L -R, 2012~~)  sont ainsi des objets  d’évaluation de coût social dépassant les seuls in dicateurs de morbi -mortalité, de nuits  d’hôpital attribuables  ou de temps gaspillé . Les drogues, q..."
   Fichier PDF : Chalfin A 2015 - Economic Costs of Crime.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le contexte de citation est une paraphrase fidèle des extraits pertinents, qui discutent des coûts socio-économiques de la criminalité et de la pollution, y compris les coûts externes et sociaux.
+  Justification : Le contexte de citation discute des incidences économiques des phénomènes socio-sanitaires, ce qui est soutenu par les extraits pertinents qui abordent les coûts sociaux et externes de la criminalité et de la pollution. Cependant, le contexte de citation élargit le sujet à d'autres phénomènes comme la congestion automobile, ce qui n'est pas explicitement mentionné dans les extraits.
 --------------------
 Référence (Page 1): Mao L -Z, Zhu H -G, Duan L -R, 2012
   Contexte : "...ences négatives socio -sanitaires des phénomènes d’ampleur s’apprécient de  plus en plus souvent sous leur aspect économique. La pollution  (~~Holland M,  2014~~) , certaines formes de criminalité  (~~Chalfin A, 2015~~) , la congestion  automobile  (~~Mao L -Z, Zhu H -G, Duan L -R, 2012~~)  sont ainsi des objets  d’évaluation de coût social dépassant les seuls in dicateurs de morbi -mortalité, de nuits  d’hôpital attribuables  ou de temps gaspillé . Les drogues, qu’elles soient licites ou  illicites n’échappent pas à ce nouveau genre..."
   Fichier PDF : Mao L-Z, Zhu H-G, Duan L-R 2012 - The Social Cost of Traffic.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le contexte de citation discute de l'évaluation économique des coûts sociaux de la congestion automobile, ce qui est soutenu par les extraits pertinents qui détaillent les méthodes de calcul et les coûts spécifiques de la congestion à Beijing. Cependant, le contexte élargit le sujet à d'autres phénomènes socio-sanitaires, ce qui n'est pas explicitement couvert dans les extraits.
+  Justification : Le contexte de citation est une paraphrase fidèle des extraits pertinents, qui discutent des coûts socio-économiques de la congestion automobile, y compris les coûts de temps perdu, les pertes économiques directes et les impacts environnementaux.
 --------------------
 Référence (Page 1): Markandya et Pearce, 1989
   Contexte : "...in dicateurs de morbi -mortalité, de nuits  d’hôpital attribuables  ou de temps gaspillé . Les drogues, qu’elles soient licites ou  illicites n’échappent pas à ce nouveau genre d’évaluation, elles en ont même été les  précurseurs  méthodologiques  (~~Markandya et Pearce, 1989 ~~). Monétariser toutes  les conséquences que peut revêtir  un phénomène, fût -il celui de la consommation  d’alcool par exemple, permet de non seulement quantifier l’ampleur  du problème, de  le comparer selon un même étalon à d’autres substances psyc..."
   Fichier PDF : Markandya, Pearce 1989 - The social costs of tobacco.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le Contexte de Citation mentionne l'évaluation des conséquences de la consommation d'alcool, tandis que les Extraits Pertinents discutent principalement des coûts sociaux de la consommation de tabac. Bien que les deux textes traitent de l'évaluation économique des conséquences de la consommation de substances, l'affirmation principale du Contexte n'est pas explicitement soutenue par les Extraits.
+  Justification : Le Contexte de Citation mentionne l'évaluation des conséquences de la consommation d'alcool, tandis que les Extraits Pertinents discutent principalement des coûts sociaux du tabagisme. Bien que les deux textes traitent de l'évaluation des coûts liés à la consommation de substances, l'affirmation principale du Contexte n'est pas explicitement soutenue par les Extraits.
 --------------------
 Référence (Page 1): Bonaldi C, 2019
   Contexte : "...ugmentation du trafic  ; le financement  des politiques de lutte contre le tabac est -il d’une enve rgure  proportionné e à son coût  social  ? Avec une  consommation d’alcool en France  respons able annuellement de plus  de 41 000 décès évitables  (~~Bonaldi C, 2019~~)  pour un coût social  d’environ 118  milliards d’euro s par an , soit  un coût individuel pour chacun de nos concitoyens de  plus de 1  800 euros ou encore un  coût de 30 000 euros par cons ommateur  problématique d’alcool  en 2010  (~~Kopp, 2015..."
   Fichier PDF : Bonaldi C 2019 - La mortalité attribuable à l’alcool.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation mentionne correctement le nombre de 41 000 décès évitables liés à l'alcool en France, ce qui est soutenu par les Extraits Pertinents. Cependant, le Contexte de Citation ne mentionne pas explicitement le coût social de 118 milliards d'euros par an, ce qui n'est pas directement soutenu par les Extraits.
+  Justification : Le Contexte de Citation mentionne correctement le nombre de 41 000 décès évitables attribuables à la consommation d'alcool en France, ce qui est soutenu par les Extraits Pertinents. Cependant, le Contexte de Citation ne mentionne pas explicitement la source de l'information sur le coût social de l'alcool, ce qui pourrait être considéré comme une omission.
 --------------------
 Référence (Page 1): Kopp, 2015
   Contexte : "...aldi C, 2019~~)  pour un coût social  d’environ 118  milliards d’euro s par an , soit  un coût individuel pour chacun de nos concitoyens de  plus de 1  800 euros ou encore un  coût de 30 000 euros par cons ommateur  problématique d’alcool  en 2010  (~~Kopp, 2015  ~~; ~~Kopp et Ogrodnik, 2017~~) , la  réponse publique française e st-elle à la hauteur de s enjeux  posés par cette substance  psychoactive ?    Face à ces estimations de coût social  et les questions qu’elles suscitent , il est souvent  rétorqué qu’i..."
   Fichier PDF : Kopp 2015 - Le coût social des drogues.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits Pertinents ne contiennent pas les chiffres spécifiques mentionnés dans le Contexte de Citation. Ils discutent des coûts sociaux des drogues et des pathologies, mais ne fournissent pas les données exactes sur les coûts de l'alcool en 2010.
+  Justification : Les Extraits Pertinents ne contiennent pas les chiffres spécifiques mentionnés dans le Contexte de Citation (118 milliards d'euros, 1 800 euros par concitoyen, 30 000 euros par consommateur problématique). Les Extraits discutent des coûts des soins et des années de vie perdues, mais ne fournissent pas les données exactes citées.
 --------------------
 Référence (Page 1): Kopp et Ogrodnik, 2017
   Contexte : "...our un coût social  d’environ 118  milliards d’euro s par an , soit  un coût individuel pour chacun de nos concitoyens de  plus de 1  800 euros ou encore un  coût de 30 000 euros par cons ommateur  problématique d’alcool  en 2010  (~~Kopp, 2015  ~~; ~~Kopp et Ogrodnik, 2017~~) , la  réponse publique française e st-elle à la hauteur de s enjeux  posés par cette substance  psychoactive ?    Face à ces estimations de coût social  et les questions qu’elles suscitent , il est souvent  rétorqué qu’il ne s’agit d’une aucun e fa..."
   Fichier PDF : Kopp, Ogrodnik 2017 - The social cost of drugs.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation reprend fidèlement les chiffres clés des Extraits Pertinents, notamment le coût social de l'alcool en 2010 (118 milliards d'euros). Cependant, il paraphrase et résume les données sans les citer directement, ce qui justifie un score de 0.8.
+  Justification : Le Contexte de Citation reprend fidèlement les chiffres clés des Extraits Pertinents, notamment le coût social de l'alcool en 2010 (118 milliards d'euros). Cependant, l'affirmation sur le coût individuel (1 800 euros par concitoyen) et le coût par consommateur problématique (30 000 euros) n'est pas explicitement soutenue par les Extraits, bien qu'elle soit cohérente avec les données fournies.
 --------------------
 Référence (Page 2): Rehm et coll.,  2014
   Contexte : "...1 A titre d’exemple, certains travaux américains tiennent compte d’un taux d’actualisation de 3% (~~Rehm et coll.,  2014~~) , certains travaux belges n’en tiennent quant -à-eux pas compte (~~Verhaeghe et coll., 2017~~) .  2 Les QALY (Quality Adjusted Life Year ou année de vie pondéré à la qualité) et les DALY sont des indicateurs  d’utilité ajustée à la qualité de vie p..."
   Fichier PDF : Rehm, Dawson et al 2014 - Burden of disease associated.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Les Extraits mentionnent l'utilisation d'un taux d'actualisation de 3%, mais ne font pas référence à des travaux belges ou à leur approche spécifique.
+  Justification : Les Extraits mentionnent l'utilisation d'un taux d'actualisation de 3%, mais ne font pas référence à des travaux belges spécifiques qui n'en tiennent pas compte.
 --------------------
 Référence (Page 2): Verhaeghe et coll., 2017
   Contexte : "...1 A titre d’exemple, certains travaux américains tiennent compte d’un taux d’actualisation de 3% (~~Rehm et coll.,  2014~~) , certains travaux belges n’en tiennent quant -à-eux pas compte (~~Verhaeghe et coll., 2017~~) .  2 Les QALY (Quality Adjusted Life Year ou année de vie pondéré à la qualité) et les DALY sont des indicateurs  d’utilité ajustée à la qualité de vie permettant d’évaluer les interventions de santé. Alors qu’une année de vie  en pleine santé vaut..."
   Fichier PDF : Verhaeghe, Lievens et al 2017 - The health-related social costs.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Les Extraits mentionnent que l'étude belge n'a pas appliqué de taux d'actualisation, mais ne fournissent pas d'exemple spécifique de travaux américains utilisant un taux de 3%. Le Contexte est lié, mais l'affirmation principale n'est pas explicitement soutenue.
+  Justification : Le contexte mentionne que certains travaux belges ne tiennent pas compte d'un taux d'actualisation, ce qui est partiellement soutenu par les extraits. Cependant, les extraits ne mentionnent pas explicitement l'absence de taux d'actualisation, mais plutôt l'absence de valorisation monétaire des pertes de bien-être.
 --------------------
 Référence (Page 2): Barrio et coll.,  2017
   Contexte : "...tique publique  volontariste en matière de lutte contre la consommation d’alcool en France.     Des coûts sociaux attribuables à l’alcool   1- Définition et méthodes d’estimation     Le coût social se compose des coûts privés et des coûts externes  (~~Barrio et coll.,  2017~~) . Les coûts privés sont les coûts que s’infligent les individus consommate urs  de substances psychoactives  : leur perte de qualité de vie, leur souffrance ou encore  différents coûts induits par leur comportement  (figure 1). Les coûts externes o..."
   Fichier PDF : Barrio, Reynolds et al 2017 - Social costs of illegal drugs.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Les Extraits mentionnent les coûts sociaux de l'alcool, mais ne soutiennent pas explicitement la définition et les méthodes d'estimation des coûts privés et externes comme le fait le Contexte.
+  Justification : Les Extraits mentionnent les coûts sociaux de l'alcool, mais ne soutiennent pas explicitement l'affirmation d'une politique publique volontariste en France.
 --------------------
 Référence (Page 2): Bhattacharya, 2017
   Contexte : "...e du privé de ce qui peut être considéré comme une pure externalité. Ainsi,  comme la figure  1 le montre, on ne sait trop où consigner  la morbi -mortalité attribuable  à la consommation d’alcool, à la fois entre un coût externe et un coût privé   (~~Bhattacharya, 2017~~) . De la même façon, alors que certains travaux incluent dans  les coûts externes les dépen ses des administrations publiques, d’autres les mettent  clairement en relief en leurs octroyant une catégorie à part entière  (~~Fenoglio et coll.,  2003~~)..."
   Fichier PDF : Bhattacharya 2017 - Which cost of alcohol.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le Contexte mentionne la difficulté de distinguer les coûts externes des coûts privés, ce qui est partiellement soutenu par les Extraits. Cependant, les Extraits ne discutent pas spécifiquement de la morbi-mortalité attribuable à la consommation d'alcool, ni de la catégorisation des dépenses des administrations publiques.
+  Justification : Le Contexte de Citation mentionne la difficulté de distinguer les coûts externes des coûts privés, mais les Extraits Pertinents discutent principalement des débats sur les estimations des coûts de l'alcool et des perspectives fiscales, sans aborder directement la question de la morbi-mortalité attribuable à la consommation d’alcool.
 --------------------
 Référence (Page 2): Fenoglio et coll.,  2003
   Contexte : "...ivé   (~~Bhattacharya, 2017~~) . De la même façon, alors que certains travaux incluent dans  les coûts externes les dépen ses des administrations publiques, d’autres les mettent  clairement en relief en leurs octroyant une catégorie à part entière  (~~Fenoglio et coll.,  2003~~) . Même si ces différences de définition s mériteraient d’être clarifiées, elles ne  nuisent pas outre mesure à la lecture des estimations et à leur comparaison. Il est en  effet souvent montré et rappelé que  ce sont les externalités qui représente..."
   Fichier PDF : Fenoglio, Parel et al 2003 - The social cost of alcohol.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le Contexte mentionne des différences de définition des coûts externes, mais les Extraits ne soutiennent pas explicitement cette affirmation. Les Extraits discutent des catégories de coûts et de leur classification, mais ne traitent pas directement des différences de définition entre les études.
+  Justification : Le Contexte mentionne des différences de définition des coûts externes, mais les Extraits ne soutiennent pas explicitement cette affirmation. Les Extraits discutent des types de coûts et de leur classification, mais ne traitent pas directement des différences de définition entre les études.
 --------------------
 Référence (Page 2): Bhattacharya, 2017
   Contexte : "...as outre mesure à la lecture des estimations et à leur comparaison. Il est en  effet souvent montré et rappelé que  ce sont les externalités qui représentent la part  important e du coût social des substances psychoactives et de celui de l’alcool   (~~Bhattacharya, 2017~~) , et tout particulièrement les coûts liés à la mortalité  prématurée et ceux attribuables à la morbidité des usagers ...."
   Fichier PDF : Bhattacharya 2017 - Which cost of alcohol.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Les Extraits discutent des coûts économiques de l'alcool et des défis liés à leur quantification, mais ne mentionnent pas explicitement les externalités ou les coûts liés à la mortalité prématurée et à la morbidité des usagers comme le fait le Contexte de Citation.
+  Justification : Les extraits discutent des coûts économiques de l'alcool et des défis liés à leur quantification, mais ne mentionnent pas explicitement les externalités ou les coûts liés à la mortalité prématurée et à la morbidité des usagers comme le fait le contexte de citation.
 --------------------
 Référence (Page 3): Rehm et coll.,  2014
   Contexte : "...1 A titre d’exemple, certains travaux américains tiennent compte d’un taux d’actualisation de 3% (~~Rehm et coll.,  2014~~) , certains travaux belges n’en tiennent quant -à-eux pas compte (~~Verhaeghe et coll., 2017~~) .  2 Les QALY (Quality Adjusted Life Year ou année de vie pondéré à la qualité) et les DALY sont des indicateurs  d’utilité ajustée à la qualité de vie p..."
   Fichier PDF : Rehm, Dawson et al 2014 - Burden of disease associated.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Les Extraits mentionnent l'utilisation d'un taux d'actualisation de 3%, mais ne font pas référence à des travaux belges spécifiques qui n'en tiennent pas compte. L'affirmation est donc partiellement soutenue.
+  Justification : Les Extraits mentionnent l'utilisation d'un taux d'actualisation de 3%, mais ne font pas référence à des travaux belges spécifiques qui n'en tiennent pas compte. Le contexte est lié, mais l'affirmation principale n'est pas explicitement soutenue.
 --------------------
 Référence (Page 3): Verhaeghe et coll., 2017
   Contexte : "...1 A titre d’exemple, certains travaux américains tiennent compte d’un taux d’actualisation de 3% (~~Rehm et coll.,  2014~~) , certains travaux belges n’en tiennent quant -à-eux pas compte (~~Verhaeghe et coll., 2017~~) .  2 Les QALY (Quality Adjusted Life Year ou année de vie pondéré à la qualité) et les DALY sont des indicateurs  d’utilité ajustée à la qualité de vie permettant d’évaluer les interventions de santé. Alors qu’une année de vie  en pleine santé vaut..."
   Fichier PDF : Verhaeghe, Lievens et al 2017 - The health-related social costs.pdf
-  Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits ne mentionnent pas explicitement l'utilisation ou non d'un taux d'actualisation de 3%, ni ne discutent des QALY ou DALY dans le contexte cité.
+  Score Sémantique (Mistral) : 0.50
+  Justification : Le contexte mentionne que certains travaux belges ne tiennent pas compte d'un taux d'actualisation, ce qui est partiellement soutenu par les extraits. Cependant, les extraits ne mentionnent pas explicitement les QALY ou DALY, ce qui rend l'affirmation principale du contexte non entièrement soutenue.
 --------------------
 Référence (Page 3): Bhattacharya, 2017
   Contexte : "...(0,5), il est possible de dire  que l’intervention de santé permet d’obtenir 1 QALY (2 ×0,5). 3   Figure 1 : Vue d’ensemble des coûts et des bénéfices de l’alcool catégorisés en coûts privés et coûts externes   Sources  : Cabinet Office (2003) in  (~~Bhattacharya, 2017~~) .    Se pose alors ici un autre défi méthodologique  plus important encore qu’une simple  clarification de définition , en l’occurrence, pouvoir estimer le coût pour la collectivité  d’un décès prématuré. Encore une fois, différentes méthodologies..."
   Fichier PDF : Bhattacharya 2017 - Which cost of alcohol.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le Contexte mentionne une intervention de santé permettant d'obtenir 1 QALY, mais les Extraits ne soutiennent pas explicitement cette affirmation. Ils discutent des coûts et des bénéfices de l'alcool, mais ne fournissent pas de détails sur des interventions spécifiques ou des gains en QALY.
+  Justification : Le Contexte de Citation mentionne une intervention de santé permettant d'obtenir 1 QALY, mais les Extraits Pertinents ne soutiennent pas explicitement cette affirmation. Les Extraits discutent des coûts de l'alcool et des méthodologies pour les estimer, mais ne fournissent pas de preuve directe pour l'affirmation spécifique du Contexte.
 --------------------
 Référence (Page 3): Baumstark et coll., 2008
   Contexte : "...autre défi méthodologique  plus important encore qu’une simple  clarification de définition , en l’occurrence, pouvoir estimer le coût pour la collectivité  d’un décès prématuré. Encore une fois, différentes méthodologies d’estimation  coexistent  (~~Baumstark et coll., 2008~~) . L’idée g énérale qui se dégage de ces  méthodologies repose sur l’hypothèse qu’un décès prématuré perturbe le  fonctionnement d’une économie nationale , que cette dernière soit ou non  en plein  emploi des facteurs de production. Oter une force p..."
   Fichier PDF : Baumstark, Carrère et al 2008 - Mesures de la valeur.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte mentionne l'estimation du coût pour la collectivité d'un décès prématuré, ce qui est soutenu par les Extraits discutant des méthodes pour évaluer la valeur statistique de la vie humaine et l'impact économique des décès prématurés. Cependant, le Contexte ne détaille pas les différentes méthodologies comme le font les Extraits.
+  Justification : Le Contexte de Citation mentionne l'estimation du coût pour la collectivité d'un décès prématuré et la coexistence de différentes méthodologies, ce qui est soutenu par les Extraits Pertinents. Les Extraits discutent des méthodes pour évaluer la valeur statistique de la vie humaine et des perturbations économiques causées par un décès prématuré, bien que le Contexte soit une paraphrase ou un résumé fidèle des Extraits.
 --------------------
 Référence (Page 3): Hodgson et  Meiners, 1982
   Contexte : "...p ertes de productivité, de salaire et de recette fiscale que le décès prématuré d’un  individu génère, en fonction du type d’emploi qu’il occupait et surtout de l’âge de son  décès  par comparaison à l’espérance de vie qu’il aurait d û atteindre  (~~Hodgson et  Meiners, 1982~~) . Soit on ne considère, comme le font les tenants de la méthode des  coûts de friction  (~~Koopmanschap et coll., 1995~~) , que les coûts temporaires de ré - adéquation entre emplois et employés pour les entreprises. Ici, le décès prématuré  induit..."
   Fichier PDF : Hodgson, Meiners 1982 - Cost-of-illness methodology.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits ne soutiennent pas l'affirmation du Contexte sur les pertes de productivité, de salaire et de recette fiscale dues au décès prématuré d'un individu. Les Extraits discutent des coûts indirects de la maladie et des coûts psychosociaux, mais ne mentionnent pas spécifiquement les pertes de productivité, de salaire et de recette fiscale comme le fait le Contexte.
+  Justification : Les Extraits ne soutiennent pas l'affirmation du Contexte sur les pertes de productivité, de salaire et de recette fiscale dues au décès prématuré d'un individu. Les Extraits discutent principalement des coûts indirects de la maladie et des coûts psychosociaux, sans se concentrer sur les pertes spécifiques mentionnées dans le Contexte.
 --------------------
 Référence (Page 3): Koopmanschap et coll., 1995
   Contexte : "...type d’emploi qu’il occupait et surtout de l’âge de son  décès  par comparaison à l’espérance de vie qu’il aurait d û atteindre  (~~Hodgson et  Meiners, 1982~~) . Soit on ne considère, comme le font les tenants de la méthode des  coûts de friction  (~~Koopmanschap et coll., 1995~~) , que les coûts temporaires de ré - adéquation entre emplois et employés pour les entreprises. Ici, le décès prématuré  induit des coûts de recrutement et de formation de nouveaux salariés supportés p ar  les organisations. Sous cette seconde métho..."
   Fichier PDF : Koopmanschap, Rutten et al 1995 - The friction cost method.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le Contexte mentionne les coûts de réadéquation entre emplois et employés, mais les Extraits discutent principalement des coûts de friction et des conséquences macro-économiques, sans explicitement soutenir l'affirmation principale du Contexte.
+  Justification : Le Contexte de Citation mentionne les coûts de friction et les coûts de recrutement et de formation, mais les Extraits Pertinents se concentrent principalement sur les conséquences macro-économiques et les méthodes de calcul des coûts indirects, sans explicitement soutenir l'affirmation principale du Contexte.
 --------------------
 Référence (Page 4): Quinet
   Contexte : "...ne , son estimation reposa nt néanmoins sur la  méthode du cost-of-illness . Décidant de ne pas considérer les différences de  productivité, de salaire et de contribution fiscale qui peuvent exister entre l es citoyens  français, le rapport Quinet  (~~Quinet~~) , réalisé pour le Commissariat général à la  stratégie et à la prospective en 2013, établit la valeur statistique de la vie humain e à 3  millions d’euros et la valeur de l’année de vie à 115 000 euros pour l’année 2010. Le  rapport établit que la..."
@@ -125,43 +125,43 @@ Référence (Page 4): Beaud,  2008
   Contexte : "...de vie perdues dans le futur. Le  taux d’actualisation est fixé à 4,5% par an  en  France . De la même façon, le coût d’opportunité des fonds publics est établi à  hauteur  d’un coefficient moyen de  1,2 sur la base de différents travaux français  (~~Beaud,  2008~~) . Il représente le coût excédentaire que les prélèvements publics peuvent  induire du fait des distorsions économiques qu’ils entraînent. Ces valeurs sont propres  aux estimations françaises. Les études étra ngères tiennent généralement  compte de..."
   Fichier PDF : Beaud 2008 - Le coût social marginal.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits ne mentionnent pas le taux d'actualisation à 4,5% ni le coût d'opportunité des fonds publics à 1,2. Ils discutent des élasticités et des réformes fiscales, mais ne soutiennent pas les affirmations spécifiques du Contexte.
+  Justification : Les Extraits ne mentionnent pas le taux d'actualisation ou le coût d'opportunité des fonds publics, qui sont les sujets principaux du Contexte de Citation.
 --------------------
 Référence (Page 4): Gakidou et coll., 2017
   Contexte : "...2- Estimations internationales  : une relative  homogénéité du co ût social de l’alcool   La consommation d’alcool est la 7ème cause de perte d’années de vie ajustée sur  l’incapacité  (Disability Adjusted Life Years, DALY)2 dans le monde en 2016   (~~Gakidou et coll., 2017~~) , derrière  le tabac ou  l’obésité mais devant  les maladies                                                           1 A titre d’exemple, certains travaux américains tiennent compte d’un taux d’actualisation de 3%  (Rehm  et al., 2014) , certains..."
   Fichier PDF : Gakidou, Afshin et al 2017 - Global, regional.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le contexte mentionne que la consommation d'alcool est la 7ème cause de perte d'années de vie ajustée sur l'incapacité (DALY) en 2016, mais les extraits ne fournissent pas cette information spécifique. Ils discutent des risques et de leur impact sur les DALYs, mais ne classent pas explicitement l'alcool parmi les causes.
+  Justification : Le contexte mentionne que la consommation d'alcool est la 7ème cause de perte d'années de vie ajustée sur l'incapacité (DALY) en 2016, mais les extraits ne fournissent pas cette information spécifique. Les extraits discutent des risques globaux et de leur impact sur les DALYs, mais ne classent pas spécifiquement la consommation d'alcool parmi les causes.
 --------------------
 Référence (Page 5): Rehm et coll., 2009
   Contexte : "...e ur est en augmentation de 25%. C ’est entre 15 et 49 ans que l’on constate les  DALYs les plus im portants  : la  mortalité prématurée attribuab le à l’alcool dans le  monde est élevée , estimée à 3,8% de  la mortalité totale, et en augmentation  (~~Rehm et coll., 2009  ~~; ~~Gakidou et coll.,  2017~~) .     Si l’on s’attarde plus spécifiquement sur les études de coût social, en comparant les  études a méricaines, canadiennes, françaises et écossaises réalisées entre 1997 et 2002,  on constate une certaine régularité..."
   Fichier PDF : Rehm, Mathers et al 2009 - Global burden of disease.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le contexte mentionne une augmentation de 25% et des DALYs importants entre 15 et 49 ans, mais les extraits ne fournissent pas de données spécifiques pour soutenir ces affirmations. Les extraits discutent de la charge de morbidité et de la mortalité attribuables à l'alcool, mais ne confirment pas directement les chiffres mentionnés dans le contexte.
+  Justification : Les Extraits mentionnent des données sur la mortalité et la charge de morbidité attribuables à l'alcool, mais ne soutiennent pas directement l'affirmation selon laquelle la mortalité prématurée attribuable à l'alcool est en augmentation de 25%. Les données sur les coûts sociaux sont également mentionnées, mais elles ne sont pas directement liées à l'affirmation principale.
 --------------------
 Référence (Page 5): Gakidou et coll.,  2017
   Contexte : "...25%. C ’est entre 15 et 49 ans que l’on constate les  DALYs les plus im portants  : la  mortalité prématurée attribuab le à l’alcool dans le  monde est élevée , estimée à 3,8% de  la mortalité totale, et en augmentation  (~~Rehm et coll., 2009  ~~; ~~Gakidou et coll.,  2017~~) .     Si l’on s’attarde plus spécifiquement sur les études de coût social, en comparant les  études a méricaines, canadiennes, françaises et écossaises réalisées entre 1997 et 2002,  on constate une certaine régularité de la charge économique que r..."
   Fichier PDF : Gakidou, Afshin et al 2017 - Global, regional.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits ne mentionnent pas l'alcool, les DALYs, ou les tranches d'âge 15-49 ans. Ils traitent principalement des changements dans les DALYs pour diverses maladies et causes, mais ne soutiennent pas l'affirmation du Contexte.
+  Justification : Les Extraits ne mentionnent pas explicitement l'alcool ou les DALYs liés à l'alcool, ni les études de coût social comparant différents pays.
 --------------------
 Référence (Page 5): Rehm et coll.,  2009
   Contexte : "...des  résultats exceptée pour les coûts attribuables à l’alcool pour le système de soin. Ceux- ci sont effectivement plus faible s, à hauteur de 5,6%, s’expliquant certainement par  une prise en charge moins développé e et/ou un recours plus faible  (~~Rehm et coll.,  2009~~) .     Ces résultats globaux sont éclairants. Ils reposent néanmoins sur une volonté de  comparaison très discutable tant les comportements de consommation diffèrent d’un  continent à l’autre, tant les systèmes de santé s’opposent, tant les méthodol..."
   Fichier PDF : Rehm, Mathers et al 2009 - Global burden of disease.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le Contexte mentionne une prise en charge moins développée et un recours plus faible pour les coûts attribuables à l'alcool dans le système de soin, ce qui est partiellement soutenu par les Extraits. Cependant, les Extraits ne fournissent pas de détails spécifiques sur la prise en charge ou le recours, mais mentionnent que les coûts de santé directe sont de 5,6% pour les pays à revenu intermédiaire, ce qui pourrait être interprété comme une justification partielle.
+  Justification : Le contexte mentionne une prise en charge moins développée et un recours plus faible pour les coûts attribuables à l'alcool dans le système de soin, ce qui est partiellement soutenu par les extraits mentionnant que les coûts de santé directe sont plus faibles dans les pays à revenu intermédiaire (5,6%). Cependant, les extraits ne fournissent pas de détails spécifiques sur la prise en charge ou le recours, ce qui rend l'affirmation principale du contexte partiellement soutenue.
 --------------------
 Référence (Page 5): Barrio et coll., 2017
   Contexte : "...es da ns les systèmes d’information doivent  exister . Si l’on resserre alors la focal e pour ne comparer entre eux que des résultats  européens, on observe encore une certaine régularité dans les résultats d’évaluation  du coût social de l’alc ool (~~Barrio et coll., 2017~~) . Mais même dans le cad re  européen, les comparaisons internationales sont limitées. Pour les dépasser, nous  reprenons ces résultats à notre compte mais les présentons en fonction de la  classification des modèles de protection sociale tels que d..."
   Fichier PDF : Barrio, Reynolds et al 2017 - Social costs of illegal drugs.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le Contexte mentionne une régularité dans les résultats d’évaluation du coût social de l’alcool en Europe, mais les Extraits ne fournissent pas de preuve directe de cette régularité. Les Extraits discutent des difficultés méthodologiques et de la variabilité des résultats, ce qui soutient indirectement l'idée de limitations dans les comparaisons internationales.
+  Justification : Le contexte de citation mentionne une régularité dans les résultats d'évaluation du coût social de l'alcool en Europe, mais les extraits pertinents discutent principalement des difficultés méthodologiques et de la variabilité des résultats. Bien que les deux traitent du coût social de l'alcool, le contexte de citation n'est pas directement soutenu par les extraits.
 --------------------
 Référence (Page 5): Esping -Andersen, 1990
   Contexte : "...européen, les comparaisons internationales sont limitées. Pour les dépasser, nous  reprenons ces résultats à notre compte mais les présentons en fonction de la  classification des modèles de protection sociale tels que décrits par Espin g-Andersen  (~~Esping -Andersen, 1990~~)  qui distingue le modèle scandinave, le modèle libéral,  le modèle d’assurance sociale de l’Europe continentale  et finalement le modèle  médite rranéen. En fonction de ces modèles, on retrouve les différents coûts sociaux de  l’alcool comme présen..."
   Fichier PDF : Esping-Andersen 1990 - The three worlds of welfare.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le contexte mentionne les modèles de protection sociale d'Esping-Andersen, mais les extraits ne fournissent pas de détails sur les coûts sociaux de l'alcool en fonction de ces modèles.
+  Justification : Le Contexte mentionne les modèles de protection sociale d'Esping-Andersen, mais les Extraits ne fournissent pas de détails spécifiques sur ces modèles ou leur application aux coûts sociaux de l'alcool.
 --------------------
 Référence (Page 7): Kopp, 2015
   Contexte : "...l les plus récentes en Belgique et en  France.     3- Le coût soci al de  l’alcool en France   La Belgique et la France viennent toutes deux de s’enrichir de nouvelles études de coût  social de l’alcool, respectivement pour les années 2012 et 2010  (~~Kopp, 2015  ~~;  ~~Kopp et Ogrodnik, 2017  ~~; ~~Verhaeghe et coll., 2017~~) . La première conclut s ur  un coût social de l’alcool évalué à 0,4% du PIB tandis que l’autre établit ce même  impact à 6%. Outre des différences méthodologiques qui expliquent cette lar..."
@@ -172,206 +172,206 @@ Référence (Page 7): Kopp, 2015
 Référence (Page 7): Kopp et Ogrodnik, 2017
   Contexte : "...en Belgique et en  France.     3- Le coût soci al de  l’alcool en France   La Belgique et la France viennent toutes deux de s’enrichir de nouvelles études de coût  social de l’alcool, respectivement pour les années 2012 et 2010  (~~Kopp, 2015  ~~;  ~~Kopp et Ogrodnik, 2017  ~~; ~~Verhaeghe et coll., 2017~~) . La première conclut s ur  un coût social de l’alcool évalué à 0,4% du PIB tandis que l’autre établit ce même  impact à 6%. Outre des différences méthodologiques qui expliquent cette large  différence, c’est bien la v..."
   Fichier PDF : Kopp, Ogrodnik 2017 - The social cost of drugs.pdf
-  Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits ne mentionnent pas de coût social de l'alcool en pourcentage du PIB, ni ne comparent les méthodes ou les résultats entre la Belgique et la France.
+  Score Sémantique (Mistral) : 0.50
+  Justification : Le contexte mentionne des études sur le coût social de l'alcool en Belgique et en France, mais les extraits pertinents ne fournissent pas de détails spécifiques sur la Belgique et ne mentionnent qu'une étude pour la France en 2010. Les extraits discutent du coût social de l'alcool en France, mais ne confirment pas les pourcentages du PIB mentionnés dans le contexte.
 --------------------
 Référence (Page 7): Verhaeghe et coll., 2017
   Contexte : "...3- Le coût soci al de  l’alcool en France   La Belgique et la France viennent toutes deux de s’enrichir de nouvelles études de coût  social de l’alcool, respectivement pour les années 2012 et 2010  (~~Kopp, 2015  ~~;  ~~Kopp et Ogrodnik, 2017  ~~; ~~Verhaeghe et coll., 2017~~) . La première conclut s ur  un coût social de l’alcool évalué à 0,4% du PIB tandis que l’autre établit ce même  impact à 6%. Outre des différences méthodologiques qui expliquent cette large  différence, c’est bien la valeur statistique de la vie hu..."
   Fichier PDF : Verhaeghe, Lievens et al 2017 - The health-related social costs.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le contexte mentionne des études sur le coût social de l'alcool en France et en Belgique, mais les extraits pertinents ne fournissent pas de données spécifiques sur la France ni de comparaison directe avec la Belgique. Les extraits se concentrent sur l'étude belge, sans mentionner les différences méthodologiques ou les pourcentages du PIB cités dans le contexte.
+  Justification : Le Contexte mentionne des études sur le coût social de l'alcool en France et en Belgique, mais les Extraits ne fournissent pas de données spécifiques sur la France ni de comparaison directe avec la Belgique. Les Extraits se concentrent uniquement sur la Belgique.
 --------------------
 Référence (Page 8): Kopp, 2015
   Contexte : "...ssion  -283    Taxation  3 204          Effet sur le bien -être*    -3 658          Coût social (Coût externe + effet sur le bien -être)  -118 057   * Coût pour l es finances publiques multiplié  du coût d'opportunité des  fonds publics.   Source : (~~Kopp, 2015~~)         Le coût social de l’alcool en France en 2010 s’élève à plus de 118 milliards d’euros   comme le tableau 2 le détaille  (~~Kopp, 2015~~) . Ce sont principalement les coûts  externes, à travers la mortalité attribuable (66 milliards d’euros)..."
   Fichier PDF : Kopp 2015 - Le coût social des drogues.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certaines données spécifiques ne soient pas explicitement mentionnées dans les Extraits.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certaines valeurs spécifiques ne soient pas explicitement mentionnées dans les Extraits.
 --------------------
 Référence (Page 8): Kopp, 2015
   Contexte : "...57   * Coût pour l es finances publiques multiplié  du coût d'opportunité des  fonds publics.   Source : (~~Kopp, 2015~~)         Le coût social de l’alcool en France en 2010 s’élève à plus de 118 milliards d’euros   comme le tableau 2 le détaille  (~~Kopp, 2015~~) . Ce sont principalement les coûts  externes, à travers la mortalité attribuable (66 milliards d’euros) et la morbidité et la  perte de qualit é de vie (39 milliards d’euros) qui compos ent le coût social de l’alcool.  A l’inverse  des derniers tra..."
   Fichier PDF : Kopp 2015 - Le coût social des drogues.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le contexte de citation mentionne un coût social de l'alcool en France en 2010 s'élevant à plus de 118 milliards d'euros, mais les extraits pertinents ne fournissent pas de données spécifiques pour cette année ou ce montant exact. Les extraits discutent des coûts sociaux des drogues et de l'alcool, mais ne soutiennent pas directement l'affirmation du contexte.
+  Justification : Les Extraits mentionnent des coûts liés à l'alcool, mais ne fournissent pas de chiffre précis de 118 milliards d'euros ni de détails sur la répartition des coûts externes comme le Contexte de Citation.
 --------------------
 Référence (Page 8): Kopp et Fenoglio, 2011
   Contexte : "...ement les coûts  externes, à travers la mortalité attribuable (66 milliards d’euros) et la morbidité et la  perte de qualit é de vie (39 milliards d’euros) qui compos ent le coût social de l’alcool.  A l’inverse  des derniers travaux en la matière  (~~Kopp et Fenoglio, 2011~~) , on  constate que l’alcool ne rapporte finalement rien aux finances publiques  ; bien au  contr aire, ces dernières sont impactées à hauteur de plus de 3 milliards d’ euros une  fois comptabilis ées les recettes fiscales issues de l’alcool  et les..."
   Fichier PDF : Kopp, Fenoglio 2011 - Les drogues sont-elles bénéfiques pour.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits indiquent que l'alcool a un impact favorable sur les finances publiques, contrairement à l'affirmation du Contexte qui suggère un impact négatif.
+  Justification : Les Extraits indiquent que l'alcool a un impact positif sur les finances publiques, contrairement à l'affirmation du Contexte qui suggère un impact négatif. Les données ne soutiennent pas l'affirmation du Contexte.
 --------------------
 Référence (Page 8): Kopp,  2015
   Contexte : "...s aux  fonctionnaires décédés prématurément . Principalement, les coûts des soins (7  milli ards d’euros) viennent largement grev er les denier s public s. En considérant qu’il  y ait 3,8 millions de consommateurs problématiques d’alcool en France  (~~Kopp,  2015~~) , chacun générerait un coût social de plus de 31 000 euros. Les consommateurs  problématiques d’alcool présentent ainsi de par leur comportem ent un coût social très  important, proche de celui des usagers de drogues illicites  et supérieur à celui..."
   Fichier PDF : Kopp 2015 - Le coût social des drogues.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le contexte de citation est une paraphrase fidèle des extraits pertinents, bien qu'il omette certains détails et simplifie certaines informations.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certaines données spécifiques (comme le coût social par consommateur problématique) soient résumées ou légèrement reformulées.
 --------------------
 Référence (Page 8): Kopp et  Fenoglio, 2006
   Contexte : "...chesse nationale de 6%, elle est à ce jour celle qui estime le plus la charge  économique que fait peser l’alcool sur la collectivité. D’un au tre côté, sachant  que le  coût social de l’alcool en France était estimé à 37 milliards d’euros en 2003  (~~Kopp et  Fenoglio, 2006~~) , cela voudrait -il signifier que ce même coût a triplé  en moins de 10..."
   Fichier PDF : Kopp, Fenoglio 2006 - Le coût social des drogues.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le Contexte mentionne un coût social de l'alcool en France estimé à 37 milliards d'euros en 2003, mais les Extraits ne fournissent pas cette information spécifique. Les Extraits discutent des coûts sociaux de l'alcool, du tabac et des drogues illicites, mais ne mentionnent pas explicitement le chiffre de 37 milliards d'euros pour l'alcool en 2003.
+  Justification : Le Contexte mentionne un coût social de l'alcool de 37 milliards d'euros en 2003, mais les Extraits montrent que cette estimation date de 2005 et n'est pas directement liée à l'année 2003. Les Extraits fournissent des données actualisées, mais ne confirment pas explicitement le chiffre cité pour 2003.
 --------------------
 Référence (Page 9): Verhaeghe et coll., 2017
   Contexte : "...u , dit autrement, on  perçoit mieux aujourd’hui qu’hier les incidences négatives de l’alcool sur la collectivité  même si on ne les appréhende  toujours pas toutes.     4- Eléments du coût social  non pris en compte   Comme il est souvent rappelé  (~~Verhaeghe et coll., 2017~~) , les travaux d’évaluation  de coût social visent certes à informer sur l’ampleur du phénomène qu’ils considèrent  mais aussi à souligner toutes les connaissances manquantes qui viennent altérer la  qualité et l’amplitude de l’estimation.  Les trav..."
   Fichier PDF : Verhaeghe, Lievens et al 2017 - The health-related social costs.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le contexte mentionne une meilleure perception des incidences négatives de l'alcool, mais les extraits pertinents discutent principalement des coûts économiques et des lacunes dans les données, sans aborder directement la perception sociale de ces incidences.
+  Justification : Le Contexte mentionne une meilleure perception des incidences négatives de l'alcool, mais les Extraits ne soutiennent pas explicitement cette affirmation. Ils discutent plutôt des coûts économiques et des lacunes dans les données.
 --------------------
 Référence (Page 9): Paille et Reynaud, 2015
   Contexte : "...e de données à ce sujet Toutefois, un récent travail, pris en considération dans la dernière étude de coût social  des substances psychoactives en France, montre le poids très important des  hospitalisations attribuables à l’alcool dans notre pays  (~~Paille et Reynaud, 2015~~) .  En effet, 3,6% de l’ensemble des dépenses hospitalières de 2012 lui seraient  attribuables. Ce pourcenta ge se décline entre séjours en médecine, chirurgie,  obstétrique et odontologie (MCO) (580 000 séjours) mais aussi entre psychiatrie (2,7  m..."
   Fichier PDF : Paille, Reynaud 2015 - L'alcool, une des toutes premières.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certains détails spécifiques (comme les pourcentages exacts et les types de séjours) soient résumés ou légèrement reformulés.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien qu'il ne mentionne pas explicitement le coût total de 2,64 milliards d'euros ni les détails sur les différentes catégories de séjours hospitaliers.
 --------------------
 Référence (Page 9): Butler et coll., 2016
   Contexte : "...était lié à des problèmes de drogues  illicites et d’alcool  ; une sur cinq de ces admissions nécessitaient un niveau de prise en  charge considéré comme élevé mobilisant ainsi les personnels présents pour des  séjours plus longs et plus co ûteux  (~~Butler et coll., 2016~~) . D’une façon générale, les  consommateurs d’alcool, et d’autant plus les dépendants, présentent des coûts de prise  en charge nettement supérieurs à  la moyenne . Seuls les fumeurs ou les anciens  fumeurs ont des coûts de soins encore plus élevés,..."
   Fichier PDF : Butler, Reeve et al 2016 - The hidden costs of drug.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte est une paraphrase fidèle des Extraits, bien que certains détails spécifiques (comme les coûts exacts) ne soient pas directement cités.
+  Justification : Le Contexte est une paraphrase fidèle des Extraits, bien que certaines parties soient légèrement exagérées ou interprétées.
 --------------------
 Référence (Page 9): Manthey et coll., 2016
   Contexte : "...consommateurs d’alcool, et d’autant plus les dépendants, présentent des coûts de prise  en charge nettement supérieurs à  la moyenne . Seuls les fumeurs ou les anciens  fumeurs ont des coûts de soins encore plus élevés, que cela soit en Allemagne   (~~Manthey et coll., 2016~~)  ou en Catalogne  (~~Miquel et coll., 2018~~) . De la même..."
   Fichier PDF : Manthey, Laramee et al 2016 - Economic burden associated with alcohol.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le contexte de citation est une paraphrase fidèle des extraits pertinents, qui indiquent que les coûts de prise en charge des dépendants à l'alcool sont nettement supérieurs à la moyenne, bien que les fumeurs ou anciens fumeurs aient des coûts encore plus élevés.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, qui indiquent que les coûts de prise en charge des dépendants à l'alcool sont nettement supérieurs à la moyenne, bien que l'affirmation sur les fumeurs ne soit pas explicitement soutenue.
 --------------------
 Référence (Page 9): Miquel et coll., 2018
   Contexte : "...pendants, présentent des coûts de prise  en charge nettement supérieurs à  la moyenne . Seuls les fumeurs ou les anciens  fumeurs ont des coûts de soins encore plus élevés, que cela soit en Allemagne   (~~Manthey et coll., 2016~~)  ou en Catalogne  (~~Miquel et coll., 2018~~) . De la même..."
   Fichier PDF : Miquel, Rehm et al 2018 - Alcohol, tobacco and health care.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits, qui indiquent que les fumeurs et les anciens fumeurs ont des coûts de soins de santé plus élevés que les non-fumeurs.
+  Justification : Le contexte de citation est une paraphrase fidèle des extraits pertinents, qui indiquent que les fumeurs et les anciens fumeurs ont des coûts de soins de santé plus élevés.
 --------------------
 Référence (Page 10): Guerin  et coll., 2013
   Contexte : "...10 façon, m ême si, encore une fois, les connaissances françaises s’accumulent (~~Guerin  et coll., 2013  ~~; ~~Paille et Reynaud, 2015~~) , le coût des maladies du foi e  attribuables à l’alcool doi t être sous -estimé dans le dernier exercice de calcul du coût  social de l’alcool. En effet, deux études récentes, pour l’une américaine, pour l’autre  écoss..."
   Fichier PDF : Guerin, Laplanche et al 2013 - Alcohol-attributable mortality in France.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le contexte mentionne que le coût des maladies du foie attribuables à l'alcool pourrait être sous-estimé, mais les extraits ne fournissent pas de données spécifiques pour soutenir cette affirmation directe.
+  Justification : Le contexte mentionne que le coût des maladies du foie attribuables à l'alcool est sous-estimé, mais les extraits ne fournissent pas de données spécifiques pour soutenir cette affirmation. Les extraits discutent principalement des méthodes d'estimation et des données de consommation d'alcool en France.
 --------------------
 Référence (Page 10): Paille et Reynaud, 2015
   Contexte : "...10 façon, m ême si, encore une fois, les connaissances françaises s’accumulent (~~Guerin  et coll., 2013  ~~; ~~Paille et Reynaud, 2015~~) , le coût des maladies du foi e  attribuables à l’alcool doi t être sous -estimé dans le dernier exercice de calcul du coût  social de l’alcool. En effet, deux études récentes, pour l’une américaine, pour l’autre  écossaise, concluent sur le surcoû..."
   Fichier PDF : Paille, Reynaud 2015 - L'alcool, une des toutes premières.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien qu'il ne cite pas directement les études mentionnées. Les Extraits discutent de l'importance des coûts des maladies liées à l'alcool et de leur sous-estimation, ce qui soutient l'affirmation du Contexte.
+  Justification : Le contexte de citation mentionne que le coût des maladies du foie attribuables à l’alcool est sous-estimé, ce qui est soutenu par les extraits pertinents qui indiquent que le coût des séjours hospitaliers liés à l’alcool est probablement sous-estimé en raison de l’absence de codage de l’alcool dans certains cas.
 --------------------
 Référence (Page 10): Bouttell et coll., 2016
   Contexte : "...deux études récentes, pour l’une américaine, pour l’autre  écossaise, concluent sur le surcoût des hospitalisations (plus longues et plus chères  une fois le diagnost ic posé) pour les maladies du foi e par comparaison aux autres  prises en charge  (~~Bouttell et coll., 2016  ~~; ~~Heslin et coll., 2017~~) .    La critique la  plus important e que l’on peut formuler à l’encontre des études de coût  social de l’alcool concerne l es omissions de comptabilisation de  certains typ es de coûts.  La dernière étude française n’éch..."
   Fichier PDF : Bouttell, Lewsey et al 2016 - The SCottish Alcoholic Liver disease.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits Pertinents ne contiennent aucune information spécifique sur les études américaines ou écossaises mentionnées dans le Contexte de Citation. Ils ne soutiennent pas l'affirmation du Contexte.
+  Justification : Les Extraits ne mentionnent pas explicitement les études américaines ou écossaises citées dans le Contexte, ni le surcoût des hospitalisations pour les maladies du foie.
 --------------------
 Référence (Page 10): Heslin et coll., 2017
   Contexte : "...e américaine, pour l’autre  écossaise, concluent sur le surcoût des hospitalisations (plus longues et plus chères  une fois le diagnost ic posé) pour les maladies du foi e par comparaison aux autres  prises en charge  (~~Bouttell et coll., 2016  ~~; ~~Heslin et coll., 2017~~) .    La critique la  plus important e que l’on peut formuler à l’encontre des études de coût  social de l’alcool concerne l es omissions de comptabilisation de  certains typ es de coûts.  La dernière étude française n’échappe pas à cette remarque...."
   Fichier PDF : Heslin, Elixhauser et al 2017 - Identifying in-patient costs attributable.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Les Extraits mentionnent des coûts plus élevés pour les maladies du foie, mais ne comparent pas explicitement ces coûts à d'autres prises en charge. La critique sur les omissions de coûts n'est pas directement soutenue par les Extraits.
+  Justification : Les Extraits discutent des coûts des hospitalisations liées à des maladies du foie, mais ne mentionnent pas explicitement les omissions de comptabilisation de certains types de coûts.
 --------------------
 Référence (Page 10): Popova et coll., 2013
   Contexte : "...s importants qui  n’apparaissent pas dans l’étude française. Rien que le diagnostic coûterait entre 3,6 à  7,3 millions de dollars par an au Canada, du fait du temps qu ’il faudrait  aux différents  professionnels de santé impliqués pour l’établir  (~~Popova et coll., 2013~~) . De la  même façon, les coûts des soins chez les jeunes traités pour un SAF sont élevés   (~~Popova et coll., 2014~~)  mais ce sont bien les coûts liés aux pertes de productivité  du fait d’une mortalité prématuré e élevée et d’une morbidité tout..."
   Fichier PDF : Popova, Lange et al 2013 - Cost of fetal alcohol spectrum.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certains détails spécifiques soient omis ou légèrement reformulés.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits, qui mentionnent explicitement les coûts de diagnostic allant de 3,6 à 7,3 millions de dollars par an au Canada.
 --------------------
 Référence (Page 10): Popova et coll., 2014
   Contexte : "...de dollars par an au Canada, du fait du temps qu ’il faudrait  aux différents  professionnels de santé impliqués pour l’établir  (~~Popova et coll., 2013~~) . De la  même façon, les coûts des soins chez les jeunes traités pour un SAF sont élevés   (~~Popova et coll., 2014~~)  mais ce sont bien les coûts liés aux pertes de productivité  du fait d’une mortalité prématuré e élevée et d’une morbidité tout aussi conséquente  qui génèrent le plus de  coût pour la collectivité  (~~Easton et coll., 2015  ~~; ~~Popova  et coll...."
   Fichier PDF : Popova, Lange et al 2014 - Canadian Children and Youth.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits ne mentionnent pas les coûts liés aux pertes de productivité ou à la mortalité prématurée, mais se concentrent sur les coûts directs des soins aux enfants.
+  Justification : Les Extraits ne mentionnent pas les coûts des soins chez les jeunes traités pour un SAF ni les pertes de productivité dues à une mortalité prématurée ou à une morbidité élevée. Ils se concentrent sur les coûts des enfants en soins de protection avec un TSAF.
 --------------------
 Référence (Page 10): Easton et coll., 2015
   Contexte : "...un SAF sont élevés   (~~Popova et coll., 2014~~)  mais ce sont bien les coûts liés aux pertes de productivité  du fait d’une mortalité prématuré e élevée et d’une morbidité tout aussi conséquente  qui génèrent le plus de  coût pour la collectivité  (~~Easton et coll., 2015  ~~; ~~Popova  et coll., 2016  ~~; ~~Ericson et coll., 2017~~) . Malgré une faible prévalence estimée à  0,2% et  des coûts sociaux estimés à 76  000 euros par mineur  et par an  et 110 000 euros  par adulte  par an pour une charge supportée par la coll..."
   Fichier PDF : Easton, Burd et al 2015 - The cost of lost productivity.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le contexte de citation est une paraphrase fidèle des extraits pertinents, qui discutent des coûts liés à la productivité perdue due à la mortalité prématurée et à la morbidité associée au trouble du spectre de l'alcoolisation fœtale (TSAF). Les extraits soutiennent l'affirmation selon laquelle les coûts sociaux sont élevés et que les pertes de productivité sont significatives.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certains détails spécifiques soient omis ou résumés.
 --------------------
 Référence (Page 10): Popova  et coll., 2016
   Contexte : "...a et coll., 2014~~)  mais ce sont bien les coûts liés aux pertes de productivité  du fait d’une mortalité prématuré e élevée et d’une morbidité tout aussi conséquente  qui génèrent le plus de  coût pour la collectivité  (~~Easton et coll., 2015  ~~; ~~Popova  et coll., 2016  ~~; ~~Ericson et coll., 2017~~) . Malgré une faible prévalence estimée à  0,2% et  des coûts sociaux estimés à 76  000 euros par mineur  et par an  et 110 000 euros  par adulte  par an pour une charge supportée par la collectivité de 1,6 milliard d’eur..."
   Fichier PDF : Popova, Lange et al 2016 - The Economic Burden of Fetal.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le contexte de citation est une paraphrase fidèle des extraits pertinents, qui discutent des coûts liés à la productivité perdue due à la morbidité et à la mortalité prématurée, ainsi que des coûts sociaux estimés pour les mineurs et les adultes.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien qu'il omette certains détails spécifiques et combine des informations de plusieurs études citées.
 --------------------
 Référence (Page 10): Ericson et coll., 2017
   Contexte : "...ont bien les coûts liés aux pertes de productivité  du fait d’une mortalité prématuré e élevée et d’une morbidité tout aussi conséquente  qui génèrent le plus de  coût pour la collectivité  (~~Easton et coll., 2015  ~~; ~~Popova  et coll., 2016  ~~; ~~Ericson et coll., 2017~~) . Malgré une faible prévalence estimée à  0,2% et  des coûts sociaux estimés à 76  000 euros par mineur  et par an  et 110 000 euros  par adulte  par an pour une charge supportée par la collectivité de 1,6 milliard d’euros   en 2014 , le coût socia..."
   Fichier PDF : Ericson, Magnusson et al 2017 - Societal costs of fetal alcohol.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certaines données spécifiques (comme les coûts sociaux par mineur et par adulte) soient directement citées sans être explicitement soutenues par les Extraits.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certaines données spécifiques (comme les coûts sociaux par mineur et par adulte) soient directement tirées des Extraits.
 --------------------
 Référence (Page 10): Easton et coll., 2015
   Contexte : "...000 euros par mineur  et par an  et 110 000 euros  par adulte  par an pour une charge supportée par la collectivité de 1,6 milliard d’euros   en 2014 , le coût social du SAF en Suède  est certainement sous -estimé selon les mots  même des auteurs  (~~Easton et coll., 2015  ~~; ~~Popova et coll., 2016  ~~; ~~Ericson  et coll., 2017~~) . Insistons sur le fait que la France ne dispose malheureusement pas de  telles estimations (voir  chapitre «  Syndrome d’alcoolisation fœtale et consommation  d’alcool dans la période périn..."
   Fichier PDF : Easton, Burd et al 2015 - The cost of lost productivity.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les extraits ne mentionnent pas de chiffres spécifiques sur le coût social du SAF en Suède ou en France, ni ne soutiennent l'affirmation des coûts par mineur et par adulte.
+  Justification : Les Extraits ne mentionnent pas de chiffres spécifiques sur le coût social du SAF en Suède ou en France, ni ne soutiennent les affirmations financières citées dans le Contexte.
 --------------------
 Référence (Page 10): Popova et coll., 2016
   Contexte : "...an  et 110 000 euros  par adulte  par an pour une charge supportée par la collectivité de 1,6 milliard d’euros   en 2014 , le coût social du SAF en Suède  est certainement sous -estimé selon les mots  même des auteurs  (~~Easton et coll., 2015  ~~; ~~Popova et coll., 2016  ~~; ~~Ericson  et coll., 2017~~) . Insistons sur le fait que la France ne dispose malheureusement pas de  telles estimations (voir  chapitre «  Syndrome d’alcoolisation fœtale et consommation  d’alcool dans la période périnatale : fréquences et facteur..."
   Fichier PDF : Popova, Lange et al 2016 - The Economic Burden of Fetal.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits ne mentionnent pas la Suède, ni les chiffres spécifiques cités (110 000 euros par adulte par an ou 1,6 milliard d'euros). Ils traitent du Canada et non de la Suède.
+  Justification : Les Extraits ne mentionnent pas la Suède, ni les chiffres spécifiques cités dans le Contexte. Ils parlent du Canada et non de la France.
 --------------------
 Référence (Page 10): Ericson  et coll., 2017
   Contexte : "...ulte  par an pour une charge supportée par la collectivité de 1,6 milliard d’euros   en 2014 , le coût social du SAF en Suède  est certainement sous -estimé selon les mots  même des auteurs  (~~Easton et coll., 2015  ~~; ~~Popova et coll., 2016  ~~; ~~Ericson  et coll., 2017~~) . Insistons sur le fait que la France ne dispose malheureusement pas de  telles estimations (voir  chapitre «  Syndrome d’alcoolisation fœtale et consommation  d’alcool dans la période périnatale : fréquences et facteurs ass ociés  » de cette exper..."
   Fichier PDF : Ericson, Magnusson et al 2017 - Societal costs of fetal alcohol.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que la citation exacte de 1,6 milliard d'euros soit directement tirée de l'article, le reste de la phrase est une interprétation fidèle des données présentées.
+  Justification : Le contexte de citation est une paraphrase fidèle des extraits pertinents, qui mentionnent effectivement un coût social de 1,6 milliard d'euros pour le SAF en Suède en 2014, bien que les auteurs soulignent que ce coût est probablement sous-estimé.
 --------------------
 Référence (Page 10): Tecco et coll., 2013
   Contexte : "...rmettant d’identifier les secteurs les plus  touchés par cette pro blématique, ce travail montre dans le même temps le faible niveau  d’information et la non prise de conscience de la part des employeurs de cette  problématique pourtant prévalente  (~~Tecco et coll., 2013~~) . Alors que le monde du  travail s’est longtemps uniquement focalisé sur la consommation e xcessive d’alcool,  sur «  l’ivrogne  », les transformations du travail et les transformations des rapports aux  substances psychoactives appellent à une nou..."
   Fichier PDF : Tecco, Jacques et al 2013 - The cost of alcohol.pdf
-  Score Sémantique (Mistral) : 0.50
-  Justification : Le Contexte mentionne un faible niveau d'information et une non prise de conscience de la part des employeurs, ce qui est partiellement soutenu par les Extraits. Cependant, les Extraits ne mentionnent pas explicitement une problématique prévalente non reconnue par les employeurs.
+  Score Sémantique (Mistral) : 0.80
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certains détails spécifiques soient omis ou résumés.
 --------------------
 Référence (Page 10): Crespin et coll., 2017
   Contexte : "...ail et les transformations des rapports aux  substances psychoactives appellent à une nouvelle appréciation du rôle et de la place de l’alcool dans le cadre professionnel français , comme un travail collectif  publié en 2017 nous invite à le faire  (~~Crespin et coll., 2017~~) .    5- Eléments de conclusion..."
   Fichier PDF : Gakidou, Afshin et al 2017 - Global, regional.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits Pertinents ne contiennent aucune information sur l'alcool dans le cadre professionnel français ou une nouvelle appréciation de son rôle.
+  Justification : Les Extraits Pertinents ne contiennent aucune information sur l'alcool dans le cadre professionnel français ou sur une nouvelle appréciation de son rôle.
 --------------------
 Référence (Page 11): Rossow et Ramstedt, 2016
   Contexte : "...que ce que l’on mesure  et selon des  conventions statistiques que l’on pourrait sans cesse discuter  mais qui permettent un  minimum de cohérence et de comparabilité . Une fois entendu tous les challenges que  devront dépasser les études à venir  (~~Rossow et Ramstedt, 2016~~) , avec en  particulier la monétarisation de la peine et des souffrances des proches des individus  décédés prématurément , l’exercice est cependant  révélateur. Pour l’alcool en France,  avec 118 milliards d’euros de coût social – quasiment autant..."
   Fichier PDF : Rossow, Ramstedt 2016 - Challenges in estimating population impacts.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits discutent des défis méthodologiques dans l'estimation des impacts de l'alcool sur les autres, mais ne mentionnent pas de coût social spécifique en France ou en euros.
+  Justification : Le contexte de citation mentionne un coût social de 118 milliards d'euros pour l'alcool en France, ce qui n'est pas soutenu par les extraits pertinents de l'article cité, qui discutent des défis méthodologiques et des études sur les effets de l'alcool sur les autres, sans fournir de chiffres spécifiques sur les coûts sociaux en France.
 --------------------
 Référence (Page 11): European Monitoring Centre for Drugs and Drug  Addiction, 2008
   Contexte : "...quasiment autant que le tabac –, il établit  indubitablement l’importante charge économique que fait supporter cette substance  psychoactive à l’ensemble de la collectivité. Et , même si l’on suit  les auteurs critiques   des études de coût social  (~~European Monitoring Centre for Drugs and Drug  Addiction, 2008~~)  qui pensent que seul  l’impac t sur les finances publiques  est  important , on constaterait que l’alcool ne  rapporte rien au budget public  ; au contraire ,  il l’ampute de quelques milliards d’euros annuellement.     Ce coût social de l’alcool..."
   Fichier PDF : European Monitoring Centre for Drugs and Drug Addiction 2008 - Selected issue 2008.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits ne mentionnent pas spécifiquement l'impact économique de l'alcool ni son coût social. Ils discutent plutôt de la méthodologie et des défis liés à l'évaluation des dépenses publiques liées aux drogues, sans fournir de données concrètes sur l'alcool.
+  Justification : Les Extraits ne soutiennent pas l'affirmation du Contexte selon laquelle l'alcool a un coût social important ou qu'il n'apporte rien au budget public. Les Extraits discutent principalement de la méthodologie et des défis liés à l'évaluation des dépenses publiques liées aux drogues, sans se concentrer sur l'alcool ou ses impacts économiques spécifiques.
 --------------------
 Référence (Page 12): Ben Lakhdar et Kopp, 2018
   Contexte : "...12 Dans cette équation simplifiée (voir  (~~Ben Lakhdar et Kopp, 2018~~) ), on peut définir  le bien -être social retiré de l’existence de l’alcool (W) comme la somme du surplus du  consommateur (S C), celui d u producteur (SP), les coûts externes3 (CE) et le solde des  finances publiques (G). Alors que les coûts extern..."
   Fichier PDF : Ben Lakhdar, Kopp 2018 - Faut-il légaliser le cannabis en.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le Contexte mentionne une équation simplifiée du bien-être social lié à l'alcool, tandis que les Extraits discutent du bien-être collectif lié au cannabis. Bien que les deux textes traitent de bien-être et de coûts externes, ils ne sont pas directement liés.
+  Justification : Le contexte de citation mentionne une équation simplifiée du bien-être social lié à l'alcool, tandis que les extraits pertinents discutent du bien-être collectif lié au cannabis. Bien que les deux textes traitent de concepts économiques similaires, ils ne sont pas directement liés, d'où un score de 0.5.
 --------------------
 Référence (Page 13): Kopp et Fenoglio,  2011
   Contexte : "...ose sur  l’estima tion de la fonction de demande d’alcool. La discussion méthodologique de  cette estimation dépasse le cadre de ce travail mais il a été montré par ailleurs que cette  même satisfaction monétarisée était assez importante en France  (~~Kopp et Fenoglio,  2011~~) , à hauteur de 13 milliards d’euros alors que le coût social de l’époque était  estimé à 37 milliards d’euros  (~~Kopp et Fenoglio, 2006~~) . Ainsi, une fois considéré  le plaisir que les consommateurs reti rent de leur consommation d’alcool, on co..."
   Fichier PDF : Kopp, Fenoglio 2011 - Les drogues sont-elles bénéfiques pour.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Les extraits mentionnent des coûts externes liés à l'alcool, mais ne fournissent pas de chiffres spécifiques sur la satisfaction monétarisée ou les coûts sociaux exacts cités dans le contexte.
+  Justification : Les extraits mentionnent des coûts et des bénéfices liés à la consommation d'alcool, mais ne fournissent pas de chiffres spécifiques sur la satisfaction monétarisée ou le coût social exacts cités dans le contexte.
 --------------------
 Référence (Page 13): Kopp et Fenoglio, 2006
   Contexte : "...ais il a été montré par ailleurs que cette  même satisfaction monétarisée était assez importante en France  (~~Kopp et Fenoglio,  2011~~) , à hauteur de 13 milliards d’euros alors que le coût social de l’époque était  estimé à 37 milliards d’euros  (~~Kopp et Fenoglio, 2006~~) . Ainsi, une fois considéré  le plaisir que les consommateurs reti rent de leur consommation d’alcool, on constate  que la prise en compte de cette satisfaction ne vient pas modifier l’impact de l’alcool  sur le bien -être social  : celui -ci est t..."
   Fichier PDF : Kopp, Fenoglio 2006 - Le coût social des drogues.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Les Extraits mentionnent des coûts sociaux de l'alcool en France, mais ne soutiennent pas directement l'affirmation spécifique de 13 milliards d'euros de satisfaction monétarisée ni sa comparaison avec le coût social de 37 milliards d'euros.
+  Justification : Le Contexte mentionne des chiffres spécifiques (13 milliards d’euros et 37 milliards d’euros) qui ne sont pas explicitement soutenus par les Extraits. Les Extraits discutent des coûts sociaux de l'alcool, mais les chiffres mentionnés dans le Contexte ne sont pas directement cités ou calculés dans les Extraits fournis.
 --------------------
 Référence (Page 13): Kopp et Fenoglio,  2011
   Contexte : "...Le  second est de dire que rien ne prouve que le secteur de l’alcool engendre des profits  supérieurs à la norme, «  c’est -à-dire ce que les mêmes ressources  (capital et travail)  procureraient si elles étaient investies dans un autre secteur  » (~~Kopp et Fenoglio,  2011~~) . En d’autres termes, l’activité économique ( le profit mais aussi les emploi s) du  secteur de l’alcool n’est pas considéré e dans  ce type d’étude comme un bénéfice social   puisqu’en ne génér ant pas de sur -profit ou en n’e mployant pas plus qu..."
   Fichier PDF : Kopp, Fenoglio 2011 - Les drogues sont-elles bénéfiques pour.pdf
   Score Sémantique (Mistral) : 0.10
-  Justification : Les Extraits ne mentionnent pas explicitement l'idée que le secteur de l'alcool n'engendre pas de profits supérieurs à la norme. Ils discutent plutôt des impacts fiscaux et sociaux de l'alcool, sans aborder directement la question des profits comparatifs.
+  Justification : Les Extraits ne mentionnent pas explicitement l'affirmation selon laquelle le secteur de l'alcool n'engendre pas de profits supérieurs à la norme. Ils discutent plutôt des impacts fiscaux et sociaux de l'alcool, sans aborder directement la question des profits comparatifs.
 --------------------
 Référence (Page 14): OFDT, 2019
   Contexte : "...Figure 2: Quantité d’alcool consommé par habitant âgé de 15 ans et plus depuis 1961 (en litres équivalents  d’alcool pur).   Source  : (~~OFDT, 2019~~)     Les Français, depuis les années 1960, boivent de moins en moins d’alcool  : leur  consommation en termes de litres équivalents d’alcool pur par an et par individu âgé  de 15 ans et plus est passé de 26 en 1962 à 11,7 litres en 2016, soit une di..."
   Fichier PDF : OFDT 2019 - Drogues et ddictions.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, qui mentionnent une diminution de la consommation d'alcool en France, passant de 12 litres en 2015 à 11,7 litres en 2017.
+  Justification : Le contexte de citation est une paraphrase fidèle des extraits pertinents, qui mentionnent une diminution de la consommation d'alcool en France, passant de 26 litres en 1962 à 11,7 litres en 2016.
 --------------------
 Référence (Page 14): Larochette et Sanchez -Gonzalez, 2015
   Contexte : "...art des vins de qualité courante dans le budget des  dépenses des ménages consacré  à l’alcool a largement diminué, passant de 47% en  1960 à 8% en 20 14. La part des dépenses en vin de qualité supérieure et en alcools forts  augmente quant -à-elle (~~Larochette et Sanchez -Gonzalez, 2015~~) . Les Français  boivent moins mais boivent plus cher.     La structure industrielle du marché de l’alcool en France semble être concurrentielle.  Même si le marché du cidre semble être plutôt dominé p ar Agrial Groupe avec les  marques Loïc Raison,..."
   Fichier PDF : Larochette, Sanchez-Gonzalez 2015 - Cinquante ans de consommation alimentaire.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certaines informations supplémentaires (comme la structure industrielle du marché de l'alcool) ne soient pas directement soutenues par les Extraits.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certaines informations supplémentaires (comme la mention d'Agrial Groupe) ne soient pas directement soutenues par les Extraits.
 --------------------
 Référence (Page 16): France AgriMer, 2017
   Contexte : "...en volume  : 14% en  2016 contre 25% en 2000. Ce sont les vins dits du nouveau monde qui gagnent e n  volume et en valeur.  La France exporte néanmoins à hauteur de 8 milliards d’euros de  vin en 2016  avec une quinzaine de millions d’hectolitres  (~~France AgriMer, 2017~~) .  Le premier marché des producteurs de vin fran çais reste le marché domestique en 2016  puisqu’il s’agit du 2ème plus grand marché dans le monde derrière les Etats -Unis selon  FranceAgri Mer et le Comité National des I nterprofessions des Vins..."
@@ -383,23 +383,23 @@ Référence (Page 16): Fédération Française des Spiritueux, 2018
   Contexte : "...iards d’euros dont une large part est du e au  Cognac  ; le marché domestique progressant lui  aussi en volume et en valeur (plus de  8 milliards) malgré «  les conséquences négatives de la guerre des prix et de promotion  destructrice de valeur  » (~~Fédération Française des Spiritueux, 2018~~) . Les  producteurs de bières exportent aussi quant  à eux mais le marché intérieur est leur  principal débouché  : 70% des bières consommées en F rance sont produites sur le  territoire national. Les brasseries françaises ont généré 3,5 milliards d..."
   Fichier PDF : Fédération Française des Spiritueux 2018 - Le marché des spiritueux résiste.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation paraphrase fidèlement les Extraits Pertinents, notamment en mentionnant la progression du marché domestique des spiritueux malgré la guerre des prix et des promotions destructrices de valeur. Cependant, le Contexte de Citation ne mentionne pas explicitement les chiffres précis des ventes en grande distribution ou les catégories de produits spécifiques qui tirent le segment, ce qui justifie un score légèrement inférieur à 1.0.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certaines données spécifiques (comme les 8 milliards pour le marché domestique) ne soient pas explicitement mentionnées dans les Extraits.
 --------------------
 Référence (Page 16): Ben Lakhdar, 2015
   Contexte : "...iritueux «  soutiennent  » plus de 100  000 emplois directs et indirects en France métropolitaine et Outre -mer5. La filière vin,  dont il éta it estimé qu’elle se composait de plus de 800 000 emplois directs et indirects  au début des années 2000  (~~Ben Lakhdar, 2015~~) , en clame  aujourd’hu i par la voix  du CNIV 500 000, soit 300  000 de moins en une quinzaine d’années.6    3- L’alcool en France  : un contributeur fiscal                                                            4 Voir le site internet des Bras..."
   Fichier PDF : Ben Lakhdar 2015 - Alcool et santé.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation paraphrase fidèlement les Extraits Pertinents, notamment en mentionnant les 800 000 emplois directs et indirects de la filière vin au début des années 2000 et les 100 000 emplois soutenus par les brasseurs de France.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que certaines données spécifiques (comme le nombre d'emplois) ne soient pas directement citées mais sont cohérentes avec les informations fournies.
 --------------------
 Référence (Page 18): Spach, 2016
   Contexte : "...reflètent a priori  correctement  les recettes fiscales issues des boissons alcooli sées. A titre de  comparaison, la commission des affaires sociales établissait à 3,3 milliards d’euros en  2013 le montant des droits indirects perçus sur l’alcool  (~~Spach, 2016~~) , plus  récemment, ils s’élevaient à 4,1 milliards selon des données non publiées du ministère  de la santé  (~~OFDT, 2019~~) .      Figure 3 : Montants des recettes douanières en France entre 2010   et 2015 pour la catégorie alcools et boissons  (..."
   Fichier PDF : Spach 2016 - Enjeux économiques et politiques publiques.pdf
   Score Sémantique (Mistral) : 0.80
-  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que la citation spécifique des 4,1 milliards ne soit pas directement mentionnée dans les Extraits.
+  Justification : Le Contexte de Citation est une paraphrase fidèle des Extraits Pertinents, bien que la citation spécifique de 4,1 milliards d'euros ne soit pas explicitement mentionnée dans les Extraits.
 --------------------
 Référence (Page 18): OFDT, 2019
   Contexte : "...n des affaires sociales établissait à 3,3 milliards d’euros en  2013 le montant des droits indirects perçus sur l’alcool  (~~Spach, 2016~~) , plus  récemment, ils s’élevaient à 4,1 milliards selon des données non publiées du ministère  de la santé  (~~OFDT, 2019~~) .      Figure 3 : Montants des recettes douanières en France entre 2010   et 2015 pour la catégorie alcools et boissons  (en millions d’euros).   Source  : DGDDI     Deux points méritent ici d’être soulignés. Le premier est la contribution importan..."
   Fichier PDF : OFDT 2019 - Drogues et ddictions.pdf
   Score Sémantique (Mistral) : 0.50
-  Justification : Le contexte mentionne des chiffres spécifiques sur les droits indirects perçus sur l'alcool, mais les extraits pertinents ne fournissent pas ces chiffres exacts. Les extraits discutent des coûts sociaux et des politiques publiques liées à l'alcool, mais ne confirment pas les montants mentionnés dans le contexte.
+  Justification : Le contexte mentionne des chiffres spécifiques sur les droits indirects perçus sur l'alcool, mais les extraits ne fournissent pas ces chiffres exacts. Les extraits discutent des coûts sociaux et des politiques publiques liées à l'alcool, mais ne confirment pas les montants cités.
 --------------------

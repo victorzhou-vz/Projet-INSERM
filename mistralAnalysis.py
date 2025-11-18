@@ -1,3 +1,6 @@
+from dotenv import load_dotenv  # Nouvelle ligne
+load_dotenv()
+import time
 import json
 import os
 from PyPDF2 import PdfReader
@@ -114,26 +117,33 @@ def get_mistral_verification(context: str, relevant_chunks: list[str]) -> dict:
     **Extraits Pertinents de l'article cité:**
     {chunks_text}
     """
+    for i in range (1, 4) : 
+        try:
+            messages = [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ]
+            chat_response = mistral_client.chat.complete(
+                model=MISTRAL_MODEL,
+                messages=messages,
+                response_format={"type": "json_object"}
+            )
+            response_content = chat_response.choices[0].message.content
+            result = json.loads(response_content)
+            return {
+                "score": float(result.get("score", 0.0)),
+                "justification": str(result.get("justification", "Erreur format JSON."))
+            }
+        except Exception as e:
+            print(f"  Attempt n°{i} - Erreur API Mistral : {e}")
+            print(f"Attente de {10*i} secondes avant nouvelle tentative...")
+            time.sleep(10*i)
+        
 
-    try:
-        messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ]
-        chat_response = mistral_client.chat.complete(
-            model=MISTRAL_MODEL,
-            messages=messages,
-            response_format={"type": "json_object"}
-        )
-        response_content = chat_response.choices[0].message.content
-        result = json.loads(response_content)
-        return {
-            "score": float(result.get("score", 0.0)),
-            "justification": str(result.get("justification", "Erreur format JSON."))
-        }
-    except Exception as e:
-        print(f"  Erreur API Mistral : {e}")
-        return {"score": 0.0, "justification": f"Erreur API: {e}"}
+    print("Échec après 3 tentatives.")
+    return {"score": 0.0, "justification": f"Erreur API: {e}"}
+        
+        
 
 # --- 4. Processus Principal ---
 
@@ -199,6 +209,7 @@ def run_verification():
         
         print(f"  Score Sémantique : {job['mistral_score']}")
         print(f"  Justification : {job['mistral_justification']}")
+        time.sleep(3) # Pause pour éviter de surcharger l'API
 
     # 3. Sauvegarder les résultats
     
