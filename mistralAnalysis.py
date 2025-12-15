@@ -1,16 +1,21 @@
-from dotenv import load_dotenv  # Nouvelle ligne
+from dotenv import load_dotenv 
 load_dotenv()
 import time
 import json
 import os
-from PyPDF2 import PdfReader
+#from PyPDF2 import PdfReader
+import pdfplumber
 from mistralai import Mistral
 #from mistralai.models.messages import ChatMessage
 from sentence_transformers import SentenceTransformer, util
 import torch
 import re
 
-# --- 1. Configuration ---
+import logging
+
+logging.getLogger("pdfminer").setLevel(logging.ERROR)
+
+#1 Configuration
 
 # Mettez votre clé API Mistral ici
 MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY")
@@ -23,7 +28,7 @@ INPUT_JSON = "verification_jobs.json"
 OUTPUT_REPORT = "verification_report.txt"
 OUTPUT_JSON_RESULTS = "verification_results.json"
 
-# --- 2. Modèles et Clients (chargés une seule fois) ---
+#2 Modèles et Clients
 
 try:
     print("Chargement du modèle sémantique local (embeddings)...")
@@ -40,37 +45,58 @@ except Exception as e:
     print(f"Erreur client Mistral: {e}")
     exit()
 
-# --- 3. Fonctions Utilitaires ---
+#3 Fonctions Utilitaires
 
 def get_pdf_full_text(pdf_path: str) -> str:
-    """Extrait le texte complet d'un fichier PDF."""
+    """Extrait le texte complet avec pdfplumber (gère mieux les colonnes)."""
     if not os.path.exists(pdf_path):
         print(f"  Erreur: Fichier PDF non trouvé à {pdf_path}")
         return ""
+    
     try:
-        reader = PdfReader(pdf_path)
         full_text = []
-        for page in reader.pages:
-            full_text.append(page.extract_text() or "")
+        # On ouvre avec pdfplumber
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages:
+                text = page.extract_text()
+                if text:
+                    full_text.append(text)
         return "\n".join(full_text)
+        
     except Exception as e:
-        print(f"  Erreur lors de la lecture de {pdf_path}: {e}")
+        print(f"  Erreur lecture PDF: {e}")
         return ""
+    
 
-def find_most_relevant_chunks(context: str, reference_text: str, model, top_k=3, chunk_size=400, overlap=50) -> list[str]:
+
+def find_most_relevant_chunks(context: str, reference_text: str, model, top_k=7, chunk_size=600, overlap=150) -> list[str]:
     """
-    (Fonction de l'étape précédente)
-    Trouve les 'top_k' morceaux les plus pertinents d'un long texte.
-    J'ai réduit chunk_size pour être plus précis.
+    Découpage par mots avec chevauchement (Overlap).
+    top_k augmenté à 7 pour donner plus de contexte à Mistral.
     """
     if not context or not reference_text:
         return []
 
-    words = re.split(r'\s+', reference_text) # Sépare sur les espaces
+    # Petit nettoyage des césures (ex: "environne- ment")
+    reference_text = reference_text.replace("-\n", "")
+    
+    words = reference_text.split() # On découpe par mots
     chunks = []
-    for i in range(0, len(words), chunk_size - overlap):
-        chunk_text = " ".join(words[i : i + chunk_size])
-        chunks.append(chunk_text)
+    
+    # On convertit grossièrement la taille demandée (caractères) en nombre de mots
+    # 1 mot ≈ 6 caractères (moyenne)
+    word_chunk_size = int(chunk_size / 6) 
+    word_overlap = int(overlap / 6)
+    
+    # On calcule le "pas" (step) pour avancer dans le texte
+    step = max(1, word_chunk_size - word_overlap)
+
+    for i in range(0, len(words), step):
+        chunk_words = words[i : i + word_chunk_size]
+        chunk_text = " ".join(chunk_words)
+        # On garde seulement si le morceau est assez long (évite les numéros de page isolés)
+        if len(chunk_text) > 50:
+            chunks.append(chunk_text)
     
     if not chunks:
         return []
@@ -79,50 +105,50 @@ def find_most_relevant_chunks(context: str, reference_text: str, model, top_k=3,
         context_embedding = model.encode(context, convert_to_tensor=True)
         chunk_embeddings = model.encode(chunks, convert_to_tensor=True)
         cosine_scores = util.cos_sim(context_embedding, chunk_embeddings)[0]
-        top_k_results = torch.topk(cosine_scores, k=min(top_k, len(chunks)))
+        
+        # On prend les 'top_k' meilleurs (ex: 7)
+        k_val = min(top_k, len(chunks))
+        top_k_results = torch.topk(cosine_scores, k=k_val)
         return [chunks[idx] for idx in top_k_results.indices]
         
     except Exception as e:
         print(f"  Erreur pendant la recherche sémantique locale : {e}")
         return []
 
+
 def get_mistral_verification(context: str, relevant_chunks: list[str]) -> dict:
-    """
-    (Fonction de l'étape précédente)
-    Demande à Mistral de noter la pertinence d'une citation.
-    """
     if not relevant_chunks:
-        return {"score": 0.0, "justification": "Aucun morceau pertinent trouvé dans le PDF de référence via le scan local."}
+        return {"score": 0.0, "justification": "Aucun morceau pertinent trouvé localement."}
 
     chunks_text = "\n\n---\n\n".join(relevant_chunks)
 
+    # Note : J'ai simplifié le prompt pour économiser des tokens, mais le sens est le même
     system_prompt = """
-    Vous êtes un assistant de recherche expert vérifiant la fidélité des citations.
-    Je vous fournis un "Contexte de Citation" (la phrase qui cite) et des "Extraits Pertinents" (les passages les plus similaires de l'article cité).
-    Votre tâche est de juger si le Contexte est une affirmation fidèle basée sur les Extraits.
+    Vous êtes un expert scientifique rigoureux (Bot de Vérification).
+    Votre but unique est de classifier la fiabilité d'une citation selon une échelle DISCRÈTE stricte.
     
-    Fournissez un "score" (0.0 à 1.0) et une "justification" (1-2 phrases).
-    - 1.0 : Le Contexte est une affirmation directe et vérifiable des Extraits.
-    - 0.8 : Le Contexte est une paraphrase ou un résumé fidèle.
-    - 0.5 : Le Contexte est lié, mais l'affirmation principale n'est pas explicitement soutenue.
-    - 0.1 : Les Extraits sont sur le même sujet mais ne soutiennent pas du tout l'affirmation du Contexte.
+    Vous ne devez répondre qu'avec l'un des 4 scores suivants (système de feux tricolores) :
     
-    Répondez *uniquement* en JSON : {"score": 0.0, "justification": "..."}
-    """
+    - 0.1 (ROUGE) : L'affirmation est fausse, contredite, ou le sujet n'a rien à voir.
+    - 0.5 (ORANGE) : Lien thématique vague, mais l'affirmation précise n'est pas trouvée dans les extraits (hallucination probable ou erreur de page).
+    - 0.8 (VERT) : L'affirmation est correcte et soutenue par le texte (paraphrase fidèle, résumé).
+    - 1.0 (PARFAIT) : Citation quasi mot-pour-mot ou donnée chiffrée exacte retrouvée.
 
-    user_prompt = f"""
-    **Contexte de Citation:**
-    {context}
-
-    **Extraits Pertinents de l'article cité:**
-    {chunks_text}
+    INTERDICTION de donner des scores intermédiaires comme 0.6, 0.7 ou 0.9. Vous devez trancher.
+    
+    Répondez UNIQUEMENT au format JSON : {"score": 0.0, "justification": "..."}
     """
-    for i in range (1, 4) : 
+    
+    user_prompt = f"Contexte: {context}\nExtraits: {chunks_text}"
+    
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_prompt}
+    ]
+
+    # --- CORRECTION DE LA BOUCLE ---
+    for i in range(1, 4): 
         try:
-            messages = [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt}
-            ]
             chat_response = mistral_client.chat.complete(
                 model=MISTRAL_MODEL,
                 messages=messages,
@@ -130,22 +156,26 @@ def get_mistral_verification(context: str, relevant_chunks: list[str]) -> dict:
             )
             response_content = chat_response.choices[0].message.content
             result = json.loads(response_content)
+            
+            # SI SUCCÈS : On retourne le résultat (on sort de la fonction)
             return {
                 "score": float(result.get("score", 0.0)),
                 "justification": str(result.get("justification", "Erreur format JSON."))
             }
+            
         except Exception as e:
-            print(f"  Attempt n°{i} - Erreur API Mistral : {e}")
-            print(f"Attente de {10*i} secondes avant nouvelle tentative...")
-            time.sleep(10*i)
+            # SI ERREUR : On n'utilise PAS 'return' ici ! On attend et on continue la boucle.
+            wait_time = i * 20 # 20s, 40s, 60s
+            print(f"  ⚠️ Tentative {i}/3 échouée (Erreur: {e}). Pause de {wait_time}s...")
+            time.sleep(wait_time)
+            
+    # SI ON ARRIVE ICI, c'est que la boucle est finie sans succès
+    print("  Échec définitif après 3 tentatives.")
+    return {"score": 0.0, "justification": "Erreur API persistante (Trop de requêtes)."}
+        
         
 
-    print("Échec après 3 tentatives.")
-    return {"score": 0.0, "justification": f"Erreur API: {e}"}
-        
-        
-
-# --- 4. Processus Principal ---
+#4 Processus Principal
 
 def run_verification():
     # 1. Lire les tâches
