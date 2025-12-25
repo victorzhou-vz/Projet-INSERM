@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 import json
 
 # --- CONFIGURATION ---
-PDF_TO_SCAN_DIR = "References/"
+PDF_TO_SCAN_DIR = "References2/"
 PDF_INDEX = [] 
 
 # --- FONCTIONS UTILITAIRES ---
@@ -137,7 +137,8 @@ def create_verification_jobs(doc, output_json="verification_jobs.json"):
     print("Scan des références et création des tâches avec contexte intelligent...")
     
     for i, page in enumerate(doc.pages):
-        text = page.extract_text() or ""
+        #text = page.extract_text() or ""
+        text = " ".join((page.extract_text() or "").split())
         matches = list(re.finditer(xp_code_ref, text, re.DOTALL))
         
         for match in matches:
@@ -172,7 +173,7 @@ def create_verification_jobs(doc, output_json="verification_jobs.json"):
 # --- LANCEMENT ---
 
 if __name__ == "__main__":
-    pdf_path = "./essai.pdf" # Vérifiez que ce fichier existe bien à côté du script
+    pdf_path = "./essai2.pdf" # Vérifiez que ce fichier existe bien à côté du script
     if os.path.exists(pdf_path):
         doc = PdfReader(pdf_path)
         create_verification_jobs(doc)

@@ -124,18 +124,30 @@ def get_mistral_verification(context: str, relevant_chunks: list[str]) -> dict:
 
     # Note : J'ai simplifié le prompt pour économiser des tokens, mais le sens est le même
     system_prompt = """
-    Vous êtes un expert scientifique rigoureux (Bot de Vérification).
-    Votre but unique est de classifier la fiabilité d'une citation selon une échelle DISCRÈTE stricte.
+    Tu es un assistant de recherche expert chargé de valider des bibliographies scientifiques.
+    Ta mission : Trouver le lien logique entre une "Citation" (ce que dit l'auteur) et les "Extraits Source".
     
-    Vous ne devez répondre qu'avec l'un des 4 scores suivants (système de feux tricolores) :
+    IMPORTANT : Les auteurs scientifiques reformulent souvent, résument ou utilisent des synonymes.
+    Ne sois pas trop littéral. Cherche le sens, pas juste les mots-clés exacts.
     
-    - 0.1 (ROUGE) : L'affirmation est fausse, contredite, ou le sujet n'a rien à voir.
-    - 0.5 (ORANGE) : Lien thématique vague, mais l'affirmation précise n'est pas trouvée dans les extraits (hallucination probable ou erreur de page).
-    - 0.8 (VERT) : L'affirmation est correcte et soutenue par le texte (paraphrase fidèle, résumé).
-    - 1.0 (PARFAIT) : Citation quasi mot-pour-mot ou donnée chiffrée exacte retrouvée.
+    Utilise strictement cette échelle de notation (Feux Tricolores) :
+    
+    - 0.1 (ROUGE - HORS SUJET) :
+      L'affirmation est contredite ou le sujet des extraits n'a strictement RIEN à voir avec la citation.
+      (Exemple : La citation parle d'alcool, l'extrait parle de climat).
+      
+    - 0.5 (ORANGE - PLAUSIBLE MAIS VAGUE) :
+      Le sujet est le bon (ex: les deux parlent de coût social), mais l'affirmation précise (chiffre ou conclusion spécifique) n'est pas explicitement visible dans ces extraits.
+      Cela peut être dû à un découpage du texte imparfait. On accorde le bénéfice du doute.
+      
+    - 0.8 (VERT - VALIDÉ) :
+      L'affirmation est correcte. Elle correspond à une paraphrase, un résumé des conclusions, ou une donnée présente dans le texte (même formulée différemment).
+      
+    - 1.0 (PARFAIT) :
+      Correspondance exacte ou quasi mot-pour-mot.
+    
+    Rappel : Si la citation résume la "tendance générale" des extraits, c'est un 0.8, pas un 0.5.
 
-    INTERDICTION de donner des scores intermédiaires comme 0.6, 0.7 ou 0.9. Vous devez trancher.
-    
     Répondez UNIQUEMENT au format JSON : {"score": 0.0, "justification": "..."}
     """
     
