@@ -5,3 +5,13 @@ __pycache__/
 .python-version
 
 .DS_Store
+
+.env
+
+reference.txt
+
+verification_jobs.json
+
+verification_report.txt
+
+verification_results.json
