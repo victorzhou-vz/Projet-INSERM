@@ -1,13 +1,18 @@
 import sys
 import os
+os.environ["QT_LOGGING_RULES"] = "qt.pdf.links=false"
 
 from PySide6.QtCore import Qt, QThread, Signal
+from PySide6.QtPdf import QPdfDocument
+from PySide6.QtPdfWidgets import QPdfView
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QAbstractItemView,
     QHBoxLayout, QVBoxLayout,
-    QPushButton, QListWidget, QFileDialog, QLabel,
-    QTableWidget, QTableWidgetItem, QTextEdit, QSplitter, QLineEdit
+    QPushButton, QFileDialog, QLabel,
+    QTableWidget, QTableWidgetItem, QTextEdit, QSplitter, QLineEdit,
+    QTabWidget, QTabBar
 )
+
 
 import match_references
 import mistralAnalysis
@@ -42,10 +47,13 @@ class WorkerVerify(QThread):
     def run(self):
         try:
             for idx, job in mistralAnalysis.verify_jobs_stream(self.jobs):
+                if self.isInterruptionRequested():
+                    return
                 self.job_updated.emit(idx, job)
             self.done.emit()
         except Exception as e:
             self.error.emit(str(e))
+
 
 
 class MainWindow(QMainWindow):
@@ -100,9 +108,7 @@ class MainWindow(QMainWindow):
         left_layout.addWidget(QLabel("Status"))
         left_layout.addWidget(self.status, 1)
 
-        # ---------- Right panel (table + detail)
-        splitter = QSplitter(Qt.Horizontal)
-
+        # ---------- Results panel (table)
         table_panel = QWidget()
         table_layout = QVBoxLayout(table_panel)
         table_layout.setContentsMargins(0, 0, 0, 0)
@@ -114,11 +120,25 @@ class MainWindow(QMainWindow):
         self.table.setSelectionBehavior(QAbstractItemView.SelectRows)
         self.table.itemSelectionChanged.connect(self.on_row_selected)
 
-        table_layout.addWidget(QLabel("Results"))
+        # (Optionnel) Si tu veux éviter "Results" en double : ne mets pas de QLabel ici
         table_layout.addWidget(self.table, 1)
 
-        detail_panel = QWidget()
-        detail_layout = QVBoxLayout(detail_panel)
+        # ---------- Right panel = Tabs (Results + Details + PDFs)
+        self.tabs = QTabWidget()
+        self.tabs.setTabsClosable(True)
+        self.tabs.tabCloseRequested.connect(self.on_tab_close_requested)
+
+        # Tab 0: Results (non fermable)
+        self.tabs.addTab(table_panel, "Results")
+
+        # Enlever le bouton X sur l’onglet "Results"
+        tab_bar = self.tabs.tabBar()
+        tab_bar.setTabButton(0, QTabBar.ButtonPosition.RightSide, None)
+        tab_bar.setTabButton(0, QTabBar.ButtonPosition.LeftSide, None)
+
+        # ---------- Details panel (always visible)
+        self.detail_panel = QWidget()
+        detail_layout = QVBoxLayout(self.detail_panel)
         detail_layout.setContentsMargins(0, 0, 0, 0)
 
         self.detail = QTextEdit()
@@ -127,16 +147,25 @@ class MainWindow(QMainWindow):
         detail_layout.addWidget(QLabel("Details (context + justification)"))
         detail_layout.addWidget(self.detail, 1)
 
-        splitter.addWidget(table_panel)
-        splitter.addWidget(detail_panel)
-        splitter.setSizes([800, 400])
+
+        right_splitter = QSplitter(Qt.Horizontal)
+        right_splitter.addWidget(self.tabs)        
+        right_splitter.addWidget(self.detail_panel)
+        right_splitter.setSizes([850, 450])
 
         root.addWidget(left_panel)
-        root.addWidget(splitter, 1)
+        root.addWidget(right_splitter, 1)
+
 
         self.setCentralWidget(central)
 
+
     # --------- UI actions
+    def on_tab_close_requested(self, index: int):
+        # "Results" ne doit jamais être fermable
+        if self.tabs.tabText(index) == "Results":
+            return
+        self.tabs.removeTab(index)  
 
     def pick_main_pdf(self):
         path, _ = QFileDialog.getOpenFileName(self, "Select main PDF", "", "PDF (*.pdf)")
@@ -212,8 +241,19 @@ class MainWindow(QMainWindow):
         self.btn_match.setEnabled(True)
         self.btn_verify.setEnabled(bool(self.jobs))
 
-    # --------- Table logic
+    def closeEvent(self, event):
+        # Ensure background threads are stopped before closing
+        for worker in (getattr(self, "worker_match", None),
+                    getattr(self, "worker_verify", None)):
+            if worker is not None and worker.isRunning():
+                worker.requestInterruption()
+                worker.quit()
+                worker.wait(2000)  # wait up to 2 seconds
+        super().closeEvent(event)
 
+        
+    
+    # --------- Table logic
     def populate_table(self, jobs):
         self.table.setRowCount(len(jobs))
         for i, job in enumerate(jobs):
@@ -229,9 +269,19 @@ class MainWindow(QMainWindow):
         set_item(0, job.get("id"))
         set_item(1, job.get("page"))
         set_item(2, job.get("status"))
-        set_item(3, job.get("pdf_filename", ""))
+
+        # PDF button in column 3
+        pdf_name = job.get("pdf_filename", "") or ""
+        btn = QPushButton(pdf_name if pdf_name else "—")
+        btn.setEnabled(bool(pdf_name))
+        btn.setCursor(Qt.PointingHandCursor)
+        btn.setStyleSheet("text-align:left; padding:4px;")
+        btn.clicked.connect(lambda _=False, r=row: self.open_pdf_for_row(r))
+        self.table.setCellWidget(row, 3, btn)
+
         set_item(4, job.get("file_match_score", ""))
         set_item(5, job.get("mistral_score", ""))
+
 
     def on_row_selected(self):
         row = self.table.currentRow()
@@ -253,6 +303,80 @@ class MainWindow(QMainWindow):
             f"Context:\n{ctx}\n\n"
             f"Justification:\n{just}\n"
         )
+
+    def open_pdf_for_row(self, row: int):
+        if row < 0 or row >= len(self.jobs):
+            return
+
+        job = self.jobs[row]
+        pdf_name = job.get("pdf_filename", "")
+        if not pdf_name:
+            self.status.setText("No PDF for this row.")
+            return
+
+        refs_dir = self.refs_dir_line.text().strip()
+        pdf_path = os.path.join(refs_dir, pdf_name)
+
+        if not os.path.exists(pdf_path):
+            self.status.setText(f"PDF not found: {pdf_path}")
+            return
+
+        self.open_pdf_tab(pdf_path, title=pdf_name)
+
+
+    def open_pdf_tab(self, pdf_path: str, title: str):
+        # If already open, focus it
+        for i in range(self.tabs.count()):
+            if self.tabs.tabText(i) == title:
+                self.tabs.setCurrentIndex(i)
+                return
+
+        container = QWidget()
+        layout = QVBoxLayout(container)
+        layout.setContentsMargins(0, 0, 0, 0)
+
+        doc = QPdfDocument(container)
+
+        # IMPORTANT: load() returns QPdfDocument.Error, not Status
+        load_err = doc.load(pdf_path)
+
+        if load_err == QPdfDocument.Error.None_ and doc.status() == QPdfDocument.Status.Ready:
+            view = QPdfView(container)
+            view.setDocument(doc)
+
+            # Afficher toutes les pages en scroll vertical (pas seulement page 1)
+            try:
+                view.setPageMode(QPdfView.PageMode.MultiPage)
+                view.setZoomMode(QPdfView.ZoomMode.FitToWidth)
+            except Exception as e:
+                print("PDF view config failed:", e)
+
+            view.setFocusPolicy(Qt.StrongFocus)
+
+
+            # Keep references alive
+            container._pdf_doc = doc
+            container._pdf_view = view
+
+            layout.addWidget(view, 1)
+            view.setFocus()
+            self.tabs.addTab(container, title)
+            self.tabs.setCurrentWidget(container)
+            return
+
+        # If it failed, show something meaningful (no errorString() in your version)
+        msg = QLabel(
+            "Failed to load PDF.\n\n"
+            f"Path:\n{pdf_path}\n\n"
+            f"load() error: {load_err}\n"
+            f"doc.status(): {doc.status()}"
+        )
+        msg.setWordWrap(True)
+        layout.addWidget(msg)
+
+        self.tabs.addTab(container, title)
+        self.tabs.setCurrentWidget(container)
+
 
 
 if __name__ == "__main__":
