@@ -1,5 +1,6 @@
 from dotenv import load_dotenv 
 load_dotenv()
+from openai import OpenAI
 import time
 import json
 import os
@@ -16,6 +17,18 @@ logging.getLogger("pdfminer").setLevel(logging.ERROR)
 # --- CONFIGURATION ---
 MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY")
 MISTRAL_MODEL = "mistral-small-latest"
+
+# Configuration pour Ollama
+# OLLAMA_URL = "http://localhost:11434/v1"
+# OLLAMA_MODEL = "mistral" 
+
+# try:
+#     client = OpenAI(
+#         base_url=OLLAMA_URL, # <--- C'est ICI la magie. On pointe vers votre PC.
+#         api_key="ollama"     # <--- Clé bidon. La librairie en exige une, mais Ollama s'en fiche.
+#     )
+# except Exception as e:
+#     print(f"Erreur: {e}")
 
 # --- CHARGEMENT MODÈLES ---
 try:
@@ -134,6 +147,82 @@ def get_mistral_verification(context: str, relevant_chunks: list[str]) -> dict:
             
     return {"score": 0.0, "justification": "Erreur API Mistral persistante."}
 
+
+
+# --- FONCTION D'INTERROGATION OLLAMA (Remplace get_mistral_verification) ---
+
+# def query_ollama_mistral(context: str, relevant_chunks: list[str]) -> dict:
+#     """
+#     Envoie le contexte et les extraits à Ollama (Mistral local) pour validation.
+#     """
+#     # Sécurité : Si pas de chunks ou pas de client, on arrête
+#     if not relevant_chunks or not client:
+#         return {"score": 0.0, "justification": "Pas de chunks ou Ollama non connecté."}
+
+#     # On colle les morceaux de texte avec des séparateurs visibles
+#     chunks_text = "\n\n---\n\n".join(relevant_chunks)
+
+#     # Le Prompt Système : On force le rôle et le format JSON
+#     system_prompt = """
+#     Tu es un expert en vérification bibliographique.
+#     Analyse si le texte du PDF supporte la citation fournie.
+#     Réponds UNIQUEMENT au format JSON strict.
+
+#     Format attendu :
+#     {
+#         "score": 0.0 à 1.0,
+#         "justification": "Une phrase courte d'explication en français."
+#     }
+
+#     Échelle de notation :
+#     - 0.0 : Le PDF ne parle pas du tout du sujet ou contredit la citation.
+#     - 0.5 : Le sujet est mentionné mais le lien est flou ou partiel.
+#     - 0.8 : Le PDF supporte clairement la citation, même si ce n'est pas totalement parfait.
+#     - 1.0 : Le PDF confirme explicitement et clairement la citation.
+#     """
+    
+#     # Le Prompt Utilisateur : Les données brutes
+#     user_prompt = f"""
+#     CITATION À VÉRIFIER :
+#     "{context}"
+
+#     EXTRAITS TROUVÉS DANS LE PDF :
+#     {chunks_text}
+
+#     Consigne : Est-ce que ces extraits confirment la citation ?
+#     """
+
+#     try:
+#         # Appel à l'API locale (Ollama)
+#         response = client.chat.completions.create(
+#             model=OLLAMA_MODEL,
+#             messages=[
+#                 {"role": "system", "content": system_prompt},
+#                 {"role": "user", "content": user_prompt}
+#             ],
+#             temperature=0.1, # Créativité au minimum pour être factuel
+#             response_format={"type": "json_object"} # Force le mode JSON valide
+#         )
+        
+#         # Récupération de la réponse textuelle
+#         content = response.choices[0].message.content
+        
+#         # Tentative de conversion du texte en Dictionnaire Python (JSON Parsing)
+#         try:
+#             result = json.loads(content)
+#             return {
+#                 "score": float(result.get("score", 0.0)),
+#                 "justification": str(result.get("justification", "Pas de justification fournie."))
+#             }
+#         except json.JSONDecodeError:
+#             # Si Mistral a mal formé son JSON (rare avec le mode json_object mais possible)
+#             return {"score": 0.0, "justification": f"Erreur format JSON reçu: {content[:50]}..."}
+            
+#     except Exception as e:
+#         # Si Ollama est éteint ou plante
+#         return {"score": 0.0, "justification": f"Erreur connexion Ollama: {str(e)}"}
+
+
 # --- NOUVELLE FONCTION REQUISE PAR L'INTERFACE ---
 
 def verify_jobs_stream(jobs: list[dict]):
@@ -144,6 +233,14 @@ def verify_jobs_stream(jobs: list[dict]):
     if not LOCAL_MODEL:
         yield 0, {"error": "Modèle local non chargé"}
         return
+    
+    ##Version Ollama : On vérifie que le client est opérationnel avant de lancer la boucle
+    # # Petit check de sécurité
+    # try:
+    #     client.models.list()
+    # except Exception:
+    #     print("ATTENTION: Ollama ne semble pas tourner. Lancez 'ollama run mistral'.")
+    
 
     for i, job in enumerate(jobs):
         # On ignore les jobs qui ont échoué à l'étape 1
@@ -171,6 +268,7 @@ def verify_jobs_stream(jobs: list[dict]):
         # Vérification
         if relevant_chunks:
             res = get_mistral_verification(job["citation_context"], relevant_chunks)
+            #res = query_ollama_mistral(job["citation_context"], relevant_chunks) ####Version Ollama
         else:
             res = {"score": 0.0, "justification": "Aucun passage pertinent trouvé localement."}
 
