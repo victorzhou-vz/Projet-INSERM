@@ -1,6 +1,6 @@
 import sys
 import os
-from turtle import color
+#from turtle import color
 os.environ["QT_LOGGING_RULES"] = "qt.pdf.links=false"
 
 from PySide6.QtCore import Qt, QThread, Signal, QMutex, QWaitCondition
