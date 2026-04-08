@@ -1,0 +1,9 @@
+PySide6 
+python-dotenv 
+sentence-transformers 
+torch 
+pdfplumber 
+PyPDF2 
+mistralai
+openai-whisper
+sounddevice
