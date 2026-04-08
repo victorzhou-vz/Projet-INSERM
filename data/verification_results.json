@@ -1,0 +1,345 @@
+[
+    {
+        "citation_context": "Coût social de l’alcool en France et envergure économique du secteur Introduction Les incidences négatives socio -sanitaires des phénomènes d’ampleur s’apprécient de plus en plus souvent sous leur aspect économique. La pollution (~~Holland M, 2014~~) , certaines formes de criminalité (~~Chalfin A, 2015~~) , la congestion automobile (~~Mao L -Z, Zhu H -G, Duan L -R, 2012~~) sont ainsi des objets d’évaluation de coût social dépassant les seuls in dicateurs de morbi -mortalité, de nuits d’hôpital attribuables ou de temps gaspillé . Les drogues, qu’elles soient licites ou illicites n’échappent pas à ce nouveau genre d’évaluation, elles en ont même été les précurseurs méthodologiques (~~Markandya et Pearce, 1989 ~~). Monétariser toutes les conséquences que peut revêtir un phénomène, fût -il celui de la consommation d’alcool par exemple, permet de non seulement quantifier l’ampleur du problème, de le comparer selon un même étalon à d’autres substances psychoactives, voire à d’autres sources de coûts évitables ou à d’autres pays .",
+        "file_match_score": 5.0,
+        "id": "ref_1",
+        "matched_pdf_path": "/home/alain/Documents/MAIN4 S7/Projet Industriel/projet-industriel-inserm/ref/References/Holland M 2014 - Costs of air pollution.pdf",
+        "mistral_justification": "La citation parle du coût social de l'alcool et de sa monétarisation pour évaluer son ampleur économique, tandis que les extraits sources traitent exclusivement des coûts de la pollution atmosphérique (NOx, PM, SOx) dans des pays européens, avec des méthodologies de quantification des dommages. Aucun lien thématique ou conceptuel n'est établi entre les deux sujets.",
+        "mistral_score": 0.1,
+        "page": 1,
+        "pdf_filename": "Holland M 2014 - Costs of air pollution.pdf",
+        "raw_citation": "Holland M, 2014",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 60,
+                "embedding_score": 0.593754768371582,
+                "final_score": 0.27759218215942383,
+                "rerank_score": 0.27759218215942383,
+                "text_preview": "four countries: France, Germany, Spain and the United Kingdom. For the present study, therefore, The simplified analysis used in this study applies country-specific adjustment factors were applied to the following approach: these four countries, and a sector-specific average value was used to make adjustments for the other 1. Averaged country-specific damage costs per countries. This requires that the E-PRTR facilities tonne of each pollutant were quantified; are mapped onto the sector descripti"
+            },
+            {
+                "chunk_id": 231,
+                "embedding_score": 0.5787124633789062,
+                "final_score": 0.1977415531873703,
+                "rerank_score": 0.1977415531873703,
+                "text_preview": "0.96 Average 0.87 1.02 1.06 Range ± 0.14 ± 0.06 Table A4.2 Relative efficiency of sectoral NO reductions for PM impacts on Europe X 2.5 Country Sector efficiency/all sectors efficiency 1 3 7 Public power Industrial Road traffic France 0.91 0.87 1.05 Germany 0.80 0.84 1.06 Spain 0.65 0.93 1.15 United Kingdom 0.74 0.79 1.21 Average 0.78 0.86 1.12 Range ± 0.13 ± 0.07 ± 0.09 (10) Results for the road transport sector are not of great relevance to this work as the sector is not included in the E-PRTR"
+            },
+            {
+                "chunk_id": 232,
+                "embedding_score": 0.6045153141021729,
+                "final_score": 0.13743507862091064,
+                "rerank_score": 0.13743507862091064,
+                "text_preview": "for PM impacts on Europe 2.5 Country Sector efficiency/all sectors efficiency 1 2 3 4 7 Public power Industrial/ Industrial Production Road traffic commercial processes France 0.64 1.03 0.63 1.08 1.26 Germany 0.51 1.07 0.55 1.38 1.05 Spain 0.39 1.78 0.52 0.84 1.09 United Kingdom 0.47 1.04 0.58 1.31 1.51 Average 0.50 1.23 0.57 1.15 1.23 Range ± 0.14 – 0.20 to + 0.55 ± 0.06 – 0.31 to + 0.23 – 0.18 to + 0.28 The level of variation for PM impacts is greater A4.3 Limitations of Eurodelta II 2.5 than "
+            },
+            {
+                "chunk_id": 175,
+                "embedding_score": 0.5756311416625977,
+                "final_score": 0.038943346589803696,
+                "rerank_score": 0.038943346589803696,
+                "text_preview": "a number of impacts from the analysis, the earlier of pollutants, countries and baseline year have been analysis by Holland et al. (2005c) specifically modelled. For the purpose of the present analysis, addressed some other key uncertainties and the change in pollutant concentration or deposition sensitivities: is then divided by the quantity of pollutant adjusted in each model run, to derive a change per tonne of • valuation of mortality using the value of emission. The emission scenario year u"
+            },
+            {
+                "chunk_id": 112,
+                "embedding_score": 0.6503647565841675,
+                "final_score": 0.028724253177642822,
+                "rerank_score": 0.028724253177642822,
+                "text_preview": "Kingdom, France (ii) the estimated damage costs from facilities when and Italy — drop significantly down the ranking, actual reported fuel consumption data were while Bulgaria, Romania and Estonia rise to the top instead used as the basis for the normalisation. Costs of air pollution from European industrial facilities 2008–2012 37 Results Figure 3.10 Aggregate damage costs by country normalised against GDP, 2008–2012 Damage costs 2008–2012 normalised by GDP ((EUR/GDP) x 103) 100 90 80 70 60 50 "
+            }
+        ],
+        "status": "PDF_FOUND"
+    },
+    {
+        "citation_context": "Coût social de l’alcool en France et envergure économique du secteur Introduction Les incidences négatives socio -sanitaires des phénomènes d’ampleur s’apprécient de plus en plus souvent sous leur aspect économique. La pollution (~~Holland M, 2014~~) , certaines formes de criminalité (~~Chalfin A, 2015~~) , la congestion automobile (~~Mao L -Z, Zhu H -G, Duan L -R, 2012~~) sont ainsi des objets d’évaluation de coût social dépassant les seuls in dicateurs de morbi -mortalité, de nuits d’hôpital attribuables ou de temps gaspillé . Les drogues, qu’elles soient licites ou illicites n’échappent pas à ce nouveau genre d’évaluation, elles en ont même été les précurseurs méthodologiques (~~Markandya et Pearce, 1989 ~~). Monétariser toutes les conséquences que peut revêtir un phénomène, fût -il celui de la consommation d’alcool par exemple, permet de non seulement quantifier l’ampleur du problème, de le comparer selon un même étalon à d’autres substances psychoactives, voire à d’autres sources de coûts évitables ou à d’autres pays .",
+        "file_match_score": 5.0,
+        "id": "ref_2",
+        "matched_pdf_path": "/home/alain/Documents/MAIN4 S7/Projet Industriel/projet-industriel-inserm/ref/References/Chalfin A 2015 - Economic Costs of Crime.pdf",
+        "mistral_justification": "La citation évoque la monétarisation des conséquences socio-sanitaires et économiques de phénomènes comme l'alcool, en soulignant l'importance de quantifier ces coûts pour les comparer à d'autres substances ou pays. Les extraits fournis traitent principalement des méthodes d'évaluation des coûts sociaux de la criminalité (transfers de richesse, coûts médicaux, méthodes empiriques comme la valorisation contingente ou l'analyse coûts-bénéfices), mais ne mentionnent ni l'alcool, ni les drogues licites/illicites, ni leur coût social spécifique. Le sujet des extraits est donc strictement hors du cadre de la citation, qui porte sur un phénomène distinct (l'alcool) et son évaluation économique globale.",
+        "mistral_score": 0.1,
+        "page": 1,
+        "pdf_filename": "Chalfin A 2015 - Economic Costs of Crime.pdf",
+        "raw_citation": "Chalfin A, 2015",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 42,
+                "embedding_score": 0.45776498317718506,
+                "final_score": 0.6786261796951294,
+                "rerank_score": 0.6786261796951294,
+                "text_preview": "2007 Data release. (2004). Willingness-to-pay for crime control proRetrieved from http://www.census.gov/acs/www/ grams.Criminology,42(1),89–109. data_documentation/2007_release/ Cooter, R. D., & Ulen, T. (1997).Law and economics Viscusi, W K., & Aldy, J. E. (2003). The value (2nded.)Boston:Addison-Wesley. of a statistical life: A critical review of market Gray,C.M.(1979).Thecostsofcrime.BeverlyHills,CA: estimatesthroughouttheworld.JournalofRiskand SagePublications. Uncertainty,27(1),5–76. Ludwig"
+            },
+            {
+                "chunk_id": 41,
+                "embedding_score": 0.45973503589630127,
+                "final_score": 0.3409796357154846,
+                "rerank_score": 0.3409796357154846,
+                "text_preview": "1920) Cohen,M.A.(1988).Painsufferingandjuryawards:A Rajkumar, A. S., & French, M. T. (1997). Drug studyofthecostofcrimetovictims.Law&Society abuse, crime costs, and the economic benefits of Review,22,538–555. treatment. Journal of Quantitative Criminology, 13, Cohen,M.A.(1998).Themonetaryvalueofsavinga 291–324. highriskyouth.JournalofQuantitativeCriminology, Roman, J. (2009). What is the price of crime? New 14,5–33. estimates of the cost of criminal victimization Cohen,M.A.(2000).Measuringthecos"
+            },
+            {
+                "chunk_id": 40,
+                "embedding_score": 0.5019230842590332,
+                "final_score": 0.3179604113101959,
+                "rerank_score": 0.3179604113101959,
+                "text_preview": "Portney, P. R., Leamer, E. E., tant innovations include increasingly sophisti- Radner, R., & Schuman, H. (1993). Report of the cated methodologies to estimate the intangible NOAApaneloncontingentvaluation.FederalRegister,58,4601–4614. costs of crime, the application of contingent Atkinson,G.,Healy,A.,&Mourato,S.(2005).Valuaing valuation to pricing public safety, and the use the costs of violent crime: A stated preference of hedonic pricing to estimate society’s revealed approach.OxfordEconomicPa"
+            },
+            {
+                "chunk_id": 8,
+                "embedding_score": 0.49316468834877014,
+                "final_score": 0.30284374952316284,
+                "rerank_score": 0.30284374952316284,
+                "text_preview": "different. In particular, the value of hodgepodge of social and external costs, parthestolenpropertycanbethoughtofasatransfer tialling out the value of goods stolen from the from one individual to another. Indeed some externalcosts.Whetherresourcesspentoncrime economistshavearguedthatstolenpropertyisan preventionareincludedasacostofcrimedepends externalbutnotasocialcostbecausetheproperty onthemethodologyemployed,atopicdiscussed hasnotbeendestroyed,merelytransferredfrom later in this entry. More "
+            },
+            {
+                "chunk_id": 2,
+                "embedding_score": 0.4562239348888397,
+                "final_score": 0.14276333153247833,
+                "rerank_score": 0.14276333153247833,
+                "text_preview": "is costly of a good or service is ordinarily determined in butsoiscrimecontrol. a straightforward manner by the intersection of This entry reviews the dominant theoretical supplyanddemandschedules.Theremainderof paradigms that underlie national estimates of thissectiondiscusseswhythetaskofcostingout the cost of crime and reviews the empirical crime is difficult and has proved challenging to methodologies that have been employed in the botheconomistsandcriminologists. recent literature. The first"
+            }
+        ],
+        "status": "PDF_FOUND"
+    },
+    {
+        "citation_context": "Coût social de l’alcool en France et envergure économique du secteur Introduction Les incidences négatives socio -sanitaires des phénomènes d’ampleur s’apprécient de plus en plus souvent sous leur aspect économique. La pollution (~~Holland M, 2014~~) , certaines formes de criminalité (~~Chalfin A, 2015~~) , la congestion automobile (~~Mao L -Z, Zhu H -G, Duan L -R, 2012~~) sont ainsi des objets d’évaluation de coût social dépassant les seuls in dicateurs de morbi -mortalité, de nuits d’hôpital attribuables ou de temps gaspillé . Les drogues, qu’elles soient licites ou illicites n’échappent pas à ce nouveau genre d’évaluation, elles en ont même été les précurseurs méthodologiques (~~Markandya et Pearce, 1989 ~~). Monétariser toutes les conséquences que peut revêtir un phénomène, fût -il celui de la consommation d’alcool par exemple, permet de non seulement quantifier l’ampleur du problème, de le comparer selon un même étalon à d’autres substances psychoactives, voire à d’autres sources de coûts évitables ou à d’autres pays .",
+        "file_match_score": 5.0,
+        "id": "ref_3",
+        "matched_pdf_path": "/home/alain/Documents/MAIN4 S7/Projet Industriel/projet-industriel-inserm/ref/References/Mao L-Z, Zhu H-G, Duan L-R 2012 - The Social Cost of Traffic.pdf",
+        "mistral_justification": "La citation initiale parle du coût social de l'alcool et de la nécessité de monétariser les conséquences socio-sanitaires pour évaluer leur ampleur économique. Les extraits fournis concernent exclusivement le coût social de la congestion automobile à Beijing, sans aucune mention de l'alcool, des drogues ou d'une méthodologie d'évaluation des coûts sociaux appliquée à d'autres substances psychoactives. Les sujets sont totalement disjoints, malgré une similarité méthodologique générale (évaluation économique des externalités).",
+        "mistral_score": 0.1,
+        "page": 1,
+        "pdf_filename": "Mao L-Z, Zhu H-G, Duan L-R 2012 - The Social Cost of Traffic.pdf",
+        "raw_citation": "Mao L -Z, Zhu H -G, Duan L -R, 2012",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 19,
+                "embedding_score": 0.39610156416893005,
+                "final_score": 0.08646029978990555,
+                "rerank_score": 0.08646029978990555,
+                "text_preview": "Hongfei. Method Research on Measuring the External Costs of Urban Traffic Congestion [J]. Systems Engineering and Information Technology, 2007, 7(5), 9-12. “Traffic Congestion in Beijing Ranks One” [WEB/OL], http://www.bjjtgl.gov.cn/ publish/portal0/tab 120 /info16233.htm WU Qibing, CHEN Feng, HUANG Yao, HU Yingyue. Calculation and Analysis of Traffic Congestion Cost in Beijing [J]. Journal of Transportation Systems Engineering and Information Technology, 2011, 1(11):1009-6744. XIA Kaixuan, HE M"
+            },
+            {
+                "chunk_id": 16,
+                "embedding_score": 0.3938400447368622,
+                "final_score": 0.0052386499010026455,
+                "rerank_score": 0.0052386499010026455,
+                "text_preview": "model specification of economic congestion costs was presented, and calculated the congestion cost of Beijing city in 2010, from which we can get the following enlightenment: (1) According to the calculation model that presented in this paper the traffic congestion cost is 57.98 billion Yuan, which is slightly lower than (FENG Xiaoshan et al., 2011), which congestion cost is 72.5 billion Yuan, higher than the 14.6 billion Yuan in the literature. Considering the congestion getting heavier from 20"
+            },
+            {
+                "chunk_id": 17,
+                "embedding_score": 0.49437960982322693,
+                "final_score": 0.003863873891532421,
+                "rerank_score": 0.003863873891532421,
+                "text_preview": "world, the proportion traffic congestion cost accounts for the GDP, the proportion in Beijing (4.22%) is far higher than other similar cities, New York is 0.49%, St. Paulo is 0.62%. It means the traffic congestion in Beijing is rather serious. (3) From table 6, the car congestion cost accounts for 51.8%, higher than the 35% that the percentage people who use car, indicates that car congestion cost is much higher than the average level of various transportation, unit time value of driving private"
+            },
+            {
+                "chunk_id": 9,
+                "embedding_score": 0.42945805191993713,
+                "final_score": 0.0027005751617252827,
+                "rerank_score": 0.0027005751617252827,
+                "text_preview": "congestion keep starting, braking and the condition that low level, low speed increases fuel consumption and exhaust emissions. At low speeds, the work situation of the engine do not reach economic region, leading to the fuel not burning adequately. Figure 2 is the graph of engine external characteristic; it shows that the optimal fuel economy is not in the low speed region, but at the n3 point. 71 72 SUSTAINABLE TRANSPORTATION SYSTEMS Driving at low speed or idle pollutes more, when the speed i"
+            },
+            {
+                "chunk_id": 18,
+                "embedding_score": 0.42300593852996826,
+                "final_score": 0.0008622034220024943,
+                "rerank_score": 0.0008622034220024943,
+                "text_preview": "it accounts for about 82% of total traffic cost, therefore, the time cost is the most 75 76 SUSTAINABLE TRANSPORTATION SYSTEMS important and intuitive among the traffic congestion. At the same time, it is worth noting that in addition to traffic congestion economic cost, environmental pollution caused by traffic congestion (especially atmospheric pollution) and the resulting anxiety cost are the same high with other corresponding social cost. REFERENCES CHEN Lairong. Study on Key Problem of Urba"
+            }
+        ],
+        "status": "PDF_FOUND"
+    },
+    {
+        "citation_context": "Coût social de l’alcool en France et envergure économique du secteur Introduction Les incidences négatives socio -sanitaires des phénomènes d’ampleur s’apprécient de plus en plus souvent sous leur aspect économique. La pollution (~~Holland M, 2014~~) , certaines formes de criminalité (~~Chalfin A, 2015~~) , la congestion automobile (~~Mao L -Z, Zhu H -G, Duan L -R, 2012~~) sont ainsi des objets d’évaluation de coût social dépassant les seuls in dicateurs de morbi -mortalité, de nuits d’hôpital attribuables ou de temps gaspillé . Les drogues, qu’elles soient licites ou illicites n’échappent pas à ce nouveau genre d’évaluation, elles en ont même été les précurseurs méthodologiques (~~Markandya et Pearce, 1989 ~~). Monétariser toutes les conséquences que peut revêtir un phénomène, fût -il celui de la consommation d’alcool par exemple, permet de non seulement quantifier l’ampleur du problème, de le comparer selon un même étalon à d’autres substances psychoactives, voire à d’autres sources de coûts évitables ou à d’autres pays . Mais a vant tout peut -être, c ela permet d’identifier plus finement les contributeurs au coût social considéré : sont -ce les décès attribuables qui coûtent le plus à la collectivité ou la morbidité, ou au contraire les dépenses publiques de lutte contre le phénomène , ou bien, est-ce la sphère privée, à travers les pertes de productivité qui supporte la plus importante part du coût ?",
+        "file_match_score": 5.0,
+        "id": "ref_4",
+        "matched_pdf_path": "/home/alain/Documents/MAIN4 S7/Projet Industriel/projet-industriel-inserm/ref/References/Markandya, Pearce 1989 - The social costs of tobacco.pdf",
+        "mistral_justification": "La citation mentionne que les drogues (dont l'alcool fait partie) ont été des précurseurs méthodologiques dans l'évaluation des coûts sociaux, et que cette approche permet de quantifier l'ampleur des problèmes, de les comparer et d'identifier les contributeurs principaux (décès, morbidité, dépenses publiques, pertes de productivité). Les extraits sources, bien que centrés sur le tabac, illustrent précisément cette méthodologie : ils définissent le concept de coût social, distinguent les coûts privés des coûts sociaux, soulignent les erreurs méthodologiques dans les études existantes, et mettent en avant l'importance de mesurer correctement ces coûts pour éclairer les politiques publiques. La correspondance est donc plausible et pertinente, mais le lien est indirect car les extraits ne mentionnent pas explicitement l'alcool. Le score est donc 0.5 (ORANGE) car le sujet est correct mais l'affirmation spécifique sur l'alcool n'est pas directement visible dans les extraits.",
+        "mistral_score": 0.5,
+        "page": 1,
+        "pdf_filename": "Markandya, Pearce 1989 - The social costs of tobacco.pdf",
+        "raw_citation": "Markandya et Pearce, 1989",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 3,
+                "embedding_score": 0.5740657448768616,
+                "final_score": 0.5879769325256348,
+                "rerank_score": 0.5879769325256348,
+                "text_preview": "the issues that arise in measuring them are reviewed. consumer or producer himself, they are referred to This leads to a typology of social cost that is as PRIVATE COSTS but to the extent that they are presented in a matrix. In the third section the not so borne but fall on the rest of society, they are existing empirical literature on the social cost of referred to as SOCIAL COSTS. Hence the total tobacco is reviewed with reference to the methodo- cost of any activity is the sum of the private "
+            },
+            {
+                "chunk_id": 53,
+                "embedding_score": 0.5659431219100952,
+                "final_score": 0.4559018015861511,
+                "rerank_score": 0.4559018015861511,
+                "text_preview": "& TOWNSEND, J. L. (1977) Economic aspects of reduced smoking. The Lancet, September 3, methodology, notably the earlier work of Atkinson pp. 492-495. (1974). In spite of these comments, the survey is BERGER, M. C, BLOMQUIST, G. C, KENKEL, D. & useful in illustrating the kinds of procedures that TOLLEY, G. S. (1987) Valuing changes in health risks: a have been used, the pitfalls of failing to distinguish comparison of alternative measures. Southern Economic private and social cost, and the items "
+            },
+            {
+                "chunk_id": 0,
+                "embedding_score": 0.6438307166099548,
+                "final_score": 0.4166516661643982,
+                "rerank_score": 0.4166516661643982,
+                "text_preview": "British Journal of Addiction (1989) 84, 1139-1150 The Social Costs of Tobacco Smoking A. MARKANDYA & D. W. PEARCE Department of Economics, University College, Gower Street, London WCIE 6BT, United Kingdom Summary This article is concerned with establishing a methodology for the measurement of the social cost of tobacco consumption, and with using that methodology to estimate the relative quantitative importance of each of the identified components of social cost. It begins by defining social cos"
+            },
+            {
+                "chunk_id": 1,
+                "embedding_score": 0.5764074325561523,
+                "final_score": 0.4151894152164459,
+                "rerank_score": 0.4151894152164459,
+                "text_preview": "incorrect. However, some interesting numbers do emerge from the studies and these are highlighted. Finally, the last section discusses the policy relevance of actual and potential measures of social cost and concludes with some general observations on the direction of future research in this field. Introduction there are some interesting numbers that emerge The social cost of smoking tobacco is a subject on from this exercise and these are highlighted. The which there is a great deal that has be"
+            },
+            {
+                "chunk_id": 50,
+                "embedding_score": 0.58781498670578,
+                "final_score": 0.39504334330558777,
+                "rerank_score": 0.39504334330558777,
+                "text_preview": "errors matter depends very much on what at risk was 0.45. To put it another way, if the value use is made of the studies for purposes of social of life (VOL) is known, it can be multiplied by 1.45 policy. In so far as cost estimation is an important to obtain a composite valuation of the person at risk element in guiding social policy on smoking it is a and his relatives. This ratio varies with a 'coefficient matter of concern that no systematic study of social of concern' which in turn is based"
+            }
+        ],
+        "status": "PDF_FOUND"
+    },
+    {
+        "citation_context": "Mais a vant tout peut -être, c ela permet d’identifier plus finement les contributeurs au coût social considéré : sont -ce les décès attribuables qui coûtent le plus à la collectivité ou la morbidité, ou au contraire les dépenses publiques de lutte contre le phénomène , ou bien, est-ce la sphère privée, à travers les pertes de productivité qui supporte la plus importante part du coût ? Ces études éclairent dans le même temp s les réponses publiques qui s’établissent face au phénomène considéré : les investissements en infrastructure s autoroutière s ont-ils été en adéquation avec l’augmentation du trafic ; le financement des politiques de lutte contre le tabac est -il d’une enve rgure proportionné e à son coût social ? Avec une consommation d’alcool en France respons able annuellement de plus de 41 000 décès évitables (~~Bonaldi C, 2019~~) pour un coût social d’environ 118 milliards d’euro s par an , soit un coût individuel pour chacun de nos concitoyens de plus de 1 800 euros ou encore un coût de 30 000 euros par cons ommateur problématique d’alcool en 2010 (~~Kopp, 2015 ~~; ~~Kopp et Ogrodnik, 2017~~) , la réponse publique française e st-elle à la hauteur de s enjeux posés par cette substance psychoactive ? Face à ces estimations de coût social et les questions qu’elles suscitent , il est souvent rétorqué qu’il ne s’agit d’une aucun e façon d’analyse s coût -bénéfice. Ceci est vrai.",
+        "file_match_score": 5.0,
+        "id": "ref_5",
+        "matched_pdf_path": "/home/alain/Documents/MAIN4 S7/Projet Industriel/projet-industriel-inserm/ref/References/Bonaldi C 2019 - La mortalité attribuable à l’alcool.pdf",
+        "mistral_justification": "La citation aborde la question des contributeurs au coût social de l'alcool en France, en mentionnant spécifiquement les décès attribuables (41 000 décès évitables par an) et leur coût économique (118 milliards d'euros, soit 1 800 euros par citoyen ou 30 000 euros par consommateur problématique). Les extraits fournissent des données détaillées sur les décès attribuables à l'alcool en France (41 000 en 2015, avec une répartition par sexe et causes), ainsi que des comparaisons méthodologiques expliquant les variations des estimations. Ces éléments confirment la tendance générale de la citation, même si celle-ci inclut des éléments contextuels (coût social global, réponses publiques) non explicitement développés dans les extraits. La correspondance est donc forte sur le fond (décès attribuables et leur ampleur), mais pas parfaite sur tous les détails chiffrés ou contextuels.",
+        "mistral_score": 0.8,
+        "page": 1,
+        "pdf_filename": "Bonaldi C 2019 - La mortalité attribuable à l’alcool.pdf",
+        "raw_citation": "Bonaldi C, 2019",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 2,
+                "embedding_score": 0.6964792609214783,
+                "final_score": 0.9031897783279419,
+                "rerank_score": 0.9031897783279419,
+                "text_preview": "distribution de la consommation d’alcool dans la population par sexe, âge et niveau de consommation. Pour chaque cause de décès dont le risque est modifié par la consommation d’alcool, des fonctions de risque sont extraites de méta-analyses récentes. En combinant ces risques avec les prévalences de consommation, on peut calculer les fractions de mortalité attribuables à l’alcool pour chaque cause. Ces fractions multipliées par les nombres de décès enregistrés correspondants permettent d’estimer "
+            },
+            {
+                "chunk_id": 46,
+                "embedding_score": 0.6855982542037964,
+                "final_score": 0.8660762310028076,
+                "rerank_score": 0.8660762310028076,
+                "text_preview": "pour expliquer des estimations réalisées en France ou ailleurs. On l’alcool mis à disposition et les estimations négli- notera cependant que l’estimation de White et coll. 10 geaient les effets protecteurs éventuels des faibles utilise la consommation déclarée, sans tenir compte doses de consommation. Elles attribuaient ainsi de l’alcool mis à disposition, contrairement à notre à l’alcool 52 000 décès en 1985 et 45 000 décès estimation. Dans notre analyse de sensibilité, en utilien 1995 13,14. L"
+            },
+            {
+                "chunk_id": 49,
+                "embedding_score": 0.682489275932312,
+                "final_score": 0.8597540855407715,
+                "rerank_score": 0.8597540855407715,
+                "text_preview": "publiée récemment de la attribuables à l’alcool sont liés à des consommations consommation d’alcool et de l’impact sanitaire de de plus de 5 verres par jour. cette consommation au niveau mondial attribue plus de 50 000 décès à l’alcool en France en 2016 45. Notre estimation de 41 000 décès attribuables à L’utilisation de données de consommation à partir l’alcool en 2015 est inférieure aux 49 000 décès d’enquêtes et de fonctions de risque différentes estimés en 2009 15. L’analyse de sensibilité ("
+            },
+            {
+                "chunk_id": 37,
+                "embedding_score": 0.6933597326278687,
+                "final_score": 0.8332538604736328,
+                "rerank_score": 0.8332538604736328,
+                "text_preview": "de la consommation, 90% signifie que l’on a ajusté sur 90% des volumes d’alcool mis à disposition ; 0% signifie que seule la consommation déclarée est utilisée pour l’estimation. ischémique et de diabète de type 2, le risque global et il n’y a pas de consensus sur l’estimateur à utiliser est augmenté. La fraction des décès attribuables à pour évaluer la mortalité attribuable à l’alcool. l’alcool reste cependant très faible à ce niveau de La consommation déclarée dans les enquêtes en consommation"
+            },
+            {
+                "chunk_id": 48,
+                "embedding_score": 0.6816600561141968,
+                "final_score": 0.7778980135917664,
+                "rerank_score": 0.7778980135917664,
+                "text_preview": "étude. Le nombre total L’alcool, problème de santé publique majeur de décès par cancer attribuables à l’alcool était en France ainsi de 9 900 vs 16 000 pour notre estimation. La Conditionnellement aux hypothèses d’estimation sur disparité entre ces chiffres provient surtout de la lesquelles repose ce travail, nos résultats montrent différence des estimations des fonctions de risque que la consommation d’alcool a un impact négatif sur de cancer. Une estimation basée sur des consomla santé de la p"
+            }
+        ],
+        "status": "PDF_FOUND"
+    },
+    {
+        "citation_context": "Mais a vant tout peut -être, c ela permet d’identifier plus finement les contributeurs au coût social considéré : sont -ce les décès attribuables qui coûtent le plus à la collectivité ou la morbidité, ou au contraire les dépenses publiques de lutte contre le phénomène , ou bien, est-ce la sphère privée, à travers les pertes de productivité qui supporte la plus importante part du coût ? Ces études éclairent dans le même temp s les réponses publiques qui s’établissent face au phénomène considéré : les investissements en infrastructure s autoroutière s ont-ils été en adéquation avec l’augmentation du trafic ; le financement des politiques de lutte contre le tabac est -il d’une enve rgure proportionné e à son coût social ? Avec une consommation d’alcool en France respons able annuellement de plus de 41 000 décès évitables (~~Bonaldi C, 2019~~) pour un coût social d’environ 118 milliards d’euro s par an , soit un coût individuel pour chacun de nos concitoyens de plus de 1 800 euros ou encore un coût de 30 000 euros par cons ommateur problématique d’alcool en 2010 (~~Kopp, 2015 ~~; ~~Kopp et Ogrodnik, 2017~~) , la réponse publique française e st-elle à la hauteur de s enjeux posés par cette substance psychoactive ? Face à ces estimations de coût social et les questions qu’elles suscitent , il est souvent rétorqué qu’il ne s’agit d’une aucun e façon d’analyse s coût -bénéfice. Ceci est vrai.",
+        "file_match_score": 5.0,
+        "id": "ref_6",
+        "matched_pdf_path": "/home/alain/Documents/MAIN4 S7/Projet Industriel/projet-industriel-inserm/ref/References/Kopp 2015 - Le coût social des drogues.pdf",
+        "mistral_justification": "La citation aborde la question de la répartition des coûts sociaux liés à l'alcool (décès, morbidité, dépenses publiques, pertes de productivité) et interroge l'adéquation des réponses publiques face à ces coûts. Les extraits source traitent principalement des méthodologies de calcul des coûts sociaux (hypothèses, comparabilité internationale, hiérarchisation des drogues, valeur de la vie humaine, etc.), ce qui est un angle complémentaire mais distinct. Bien que les extraits éclairent indirectement les limites des études de coût social (et donc des réponses publiques qui en découlent), ils ne mentionnent pas explicitement la répartition des coûts entre décès, morbidité, dépenses publiques ou pertes de productivité. Le lien est donc plausible (même sujet général : coût social de l'alcool), mais la citation précise n'est pas directement validée par les extraits fournis.",
+        "mistral_score": 0.5,
+        "page": 1,
+        "pdf_filename": "Kopp 2015 - Le coût social des drogues.pdf",
+        "raw_citation": "Kopp, 2015",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 48,
+                "embedding_score": 0.7762331962585449,
+                "final_score": 0.9391422271728516,
+                "rerank_score": 0.9391422271728516,
+                "text_preview": "convient de signaler que le montant final du « coût social » dépend crucialement des hypothèses de calcul retenues et de l’avancée des connaissances quant aux conséquences des drogues sur les individus et la société. Le résultat devra être remis en cause ou affiné à l’occasion de chaque avancée de la connaissance. D’autre part, la comparabilité internationale des études de « coût social » est très limitée. En effet, les paramètres du calcul économique changent d’un pays à l’autre. Enfin, la hiér"
+            },
+            {
+                "chunk_id": 197,
+                "embedding_score": 0.7880553007125854,
+                "final_score": 0.9167272448539734,
+                "rerank_score": 0.9167272448539734,
+                "text_preview": "tabac et les drogues illicites. Comme il vient d’être indiqué, la valeur de la vie humaine a doublé entre cette évaluation du coût social et la précédente. En revanche, la base sur laquelle est appuyé le calcul du « coût des pertes de production » (INCa, 2007) est le PIB. Or, le PIB n’a pas été multiplié par deux au cours de la dernière décennie. Mécaniquement, le pourcentage des pertes de production a donc baissé dans le coût social. Cette situation tient au fait que, d’un côté, la « valeur de "
+            },
+            {
+                "chunk_id": 199,
+                "embedding_score": 0.7823344469070435,
+                "final_score": 0.9010809659957886,
+                "rerank_score": 0.9010809659957886,
+                "text_preview": "financement des dépenses de soins (assurance individuelle versus charges sociales). Les règles mêmes d’enregistrement des dépenses publiques sont assez différentes dans les différents pays même ceux membres de l’Union européenne. Ce rapport adopte une conception large du périmètre de l’État en incluant les comptes sociaux. Chaque étude de coût social a été confrontée au problème de définition du périmètre des coûts publics et privés et de l’articulation spécifique entre finances publiques et com"
+            },
+            {
+                "chunk_id": 9,
+                "embedding_score": 0.8172763586044312,
+                "final_score": 0.8830624222755432,
+                "rerank_score": 0.8830624222755432,
+                "text_preview": "est bien mesuré il est possible d’examiner les bénéfices qu’une dépense (souvent publique) permet d’espérer, en comparant le coût de l’intervention avec le bénéfice, exprimé en termes de réduction du coût des conséquences négatives. Les études de coût social permettent d’objectiver les termes du débat pour les pouvoirs publics qui sont exposés aux pressions des différents lobbies économiques, dont on connaît le poids dans les domaines de l’alcool et du tabac. Participant au processus de producti"
+            },
+            {
+                "chunk_id": 33,
+                "embedding_score": 0.7776164412498474,
+                "final_score": 0.792267382144928,
+                "rerank_score": 0.792267382144928,
+                "text_preview": "= Coût social B – m éthodologIe retenue Mener en pratique une étude de « coût social » exige d’effectuer de nombreux choix méthodologiques spécifiques. Premièrement, la présente étude porte sur le « coût social », soit l’addition du « coût externe » et du coût en bien-être de la variation du solde des finances publiques. Deuxièmement, les dépenses privées des particuliers engendrées par les drogues ne seront pas prises en compte10. Il s’agit de l’achat des produits (tabac, alcool, drogues) mais "
+            }
+        ],
+        "status": "PDF_FOUND"
+    },
+    {
+        "citation_context": "Mais a vant tout peut -être, c ela permet d’identifier plus finement les contributeurs au coût social considéré : sont -ce les décès attribuables qui coûtent le plus à la collectivité ou la morbidité, ou au contraire les dépenses publiques de lutte contre le phénomène , ou bien, est-ce la sphère privée, à travers les pertes de productivité qui supporte la plus importante part du coût ? Ces études éclairent dans le même temp s les réponses publiques qui s’établissent face au phénomène considéré : les investissements en infrastructure s autoroutière s ont-ils été en adéquation avec l’augmentation du trafic ; le financement des politiques de lutte contre le tabac est -il d’une enve rgure proportionné e à son coût social ? Avec une consommation d’alcool en France respons able annuellement de plus de 41 000 décès évitables (~~Bonaldi C, 2019~~) pour un coût social d’environ 118 milliards d’euro s par an , soit un coût individuel pour chacun de nos concitoyens de plus de 1 800 euros ou encore un coût de 30 000 euros par cons ommateur problématique d’alcool en 2010 (~~Kopp, 2015 ~~; ~~Kopp et Ogrodnik, 2017~~) , la réponse publique française e st-elle à la hauteur de s enjeux posés par cette substance psychoactive ? Face à ces estimations de coût social et les questions qu’elles suscitent , il est souvent rétorqué qu’il ne s’agit d’une aucun e façon d’analyse s coût -bénéfice. Ceci est vrai.",
+        "file_match_score": 5.0,
+        "id": "ref_7",
+        "matched_pdf_path": "/home/alain/Documents/MAIN4 S7/Projet Industriel/projet-industriel-inserm/ref/References/Kopp, Ogrodnik 2017 - The social cost of drugs.pdf",
+        "mistral_justification": "La citation aborde la question de la répartition des coûts sociaux liés à l'alcool (décès, morbidité, dépenses publiques, pertes de productivité) et interroge l'adéquation des réponses publiques face à ces coûts. Les extraits source fournissent des données précises sur la répartition des coûts sociaux par type de perte (pertes de vies humaines, qualité de vie, production) pour l'alcool, ainsi que des éléments méthodologiques sur le calcul de ces coûts. Cependant, ils ne mentionnent pas explicitement la question de l'adéquation des réponses publiques ou des investissements en infrastructure, ce qui limite la correspondance directe. Le sujet est globalement aligné (coûts sociaux de l'alcool), mais l'affirmation spécifique sur les réponses publiques n'est pas directement validée par les extraits.",
+        "mistral_score": 0.5,
+        "page": 1,
+        "pdf_filename": "Kopp, Ogrodnik 2017 - The social cost of drugs.pdf",
+        "raw_citation": "Kopp et Ogrodnik, 2017",
+        "retrieved_chunks": [
+            {
+                "chunk_id": 24,
+                "embedding_score": 0.616237998008728,
+                "final_score": 0.9150019288063049,
+                "rerank_score": 0.9150019288063049,
+                "text_preview": "assumed equal attributable fractions for mortality and morbidity for each 4 UnpublishedfigurecalculatedbytheOFDT. combination of drug and disease. 123 ThesocialcostofdrugsinFrancein2010 891 Moreover, as attributable fractions that determine the others do not. Finally, social systems differ greatly from valueofliveslost—andthus,themainpartofsocialcost— one country to another. In particular, the distribution of do not take comorbidities into account, one global social spending on care between publ"
+            },
+            {
+                "chunk_id": 26,
+                "embedding_score": 0.565010130405426,
+                "final_score": 0.8649023771286011,
+                "rerank_score": 0.8649023771286011,
+                "text_preview": "in 2000. The increase in deaths due to publics [Internet]. Centre d’Analyse Strate´gique. http://www. tobacco is explained by a better accounting for causes of strategie.gouv.fr/sites/strategie.gouv.fr/files/archives/CGSP_Eva luation_socioeconomique_17092013.pdf (2013).Accessed 19 death, notably for deaths from cardiovascular disease and May2016 cancer caused by tobacco. Moreover, the value of human 2. Collins, D., Lapsley, H. M.: The social costs of drug abuse in life,aswellasthediscountingrate"
+            },
+            {
+                "chunk_id": 23,
+                "embedding_score": 0.714898943901062,
+                "final_score": 0.7363656163215637,
+                "rerank_score": 0.7363656163215637,
+                "text_preview": "resources, but also because the frictionaltaxes on tobacco and alcohol, and despite the savings on costs method implies complex calculations. Thereby, the civil servants’ pensions not paid due to premature deaths, results are potentially overestimated. Moreover, INCa the cost of care is greater than the income from those [15] uses a 5 % discount, whereas the discount used for revenues. Drugs represent a cost to the public purse and other calculations of the social cost is 4 %, generating make th"
+            },
+            {
+                "chunk_id": 20,
+                "embedding_score": 0.6500023603439331,
+                "final_score": 0.5555606484413147,
+                "rerank_score": 0.5555606484413147,
+                "text_preview": "partly arbitrary cost for tobacco, alcohol, and illegal drugs, respectively. decisions. Contrary to the proponents of the theory of The large number of lives lost (79,000, 49,000, and 1600, rational addiction [31, 32], we did not consider intraperrespectively) and the value for each year of life lost sonal externalities (i.e., consumer’s illness) as a private (€115,000) explains this. cost, under the argument that the addiction dominates the The largest part of social cost for each drug is made "
+            },
+            {
+                "chunk_id": 9,
+                "embedding_score": 0.6174519062042236,
+                "final_score": 0.4770529568195343,
+                "rerank_score": 0.4770529568195343,
+                "text_preview": "of deaths in trafficaccidentscausedbycannabisareinindividualsunder Effect on public expenditure age25,sowetake25asanestimation. Thedrug-relatedpublicexpenditureisequaltocostofcare External cost plus public spending for research, prevention, and law enforcement, minus tax revenue from alcohol and tobacco Theexternalcostincludesthevaluesoflifeandproduction and minus the unpaid public pensions due to premature losses due to death and the values of loss in quality of life deaths. due to disease. Tho"
+            }
+        ],
+        "status": "PDF_FOUND"
+    }
+]

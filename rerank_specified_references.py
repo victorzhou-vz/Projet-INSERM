@@ -76,13 +76,15 @@ if not MISTRAL_API_KEY:
     exit()
 
 MISTRAL_MODEL = "mistral-small-latest"
-OUTPUT_JSON_RESULTS = "data/verification_results.json"
+INPUT_JSON = "verification_jobs.json"
+OUTPUT_REPORT = "verification_report.txt"
+OUTPUT_JSON_RESULTS = "verification_results.json"
 
 # Retrieval parameters
 EMBEDDING_MODEL_NAME = "paraphrase-multilingual-MiniLM-L12-v2"
 RERANKER_MODEL_NAME = "BAAI/bge-reranker-v2-m3"
-INITIAL_TOP_K = 12
-FINAL_TOP_K = 5
+INITIAL_TOP_K = 20
+FINAL_TOP_K = 8
 CHUNK_TARGET_WORDS = 180
 CHUNK_OVERLAP_WORDS = 40
 CHUNK_MIN_WORDS = 40
@@ -301,6 +303,3 @@ def verify_jobs_stream(jobs, should_abort=None, use_ollama: bool = False):
 
         yield i, job
         time.sleep(0.2)
-
-    with open(OUTPUT_JSON_RESULTS, "w") as f:
-        json.dump(jobs, f, indent=4, ensure_ascii=False)

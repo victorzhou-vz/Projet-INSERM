@@ -3,8 +3,7 @@ import re
 from PyPDF2 import PdfReader
 import json
 
-# --- CONFIGURATION ---
-PDF_TO_SCAN_DIR = "References/" 
+# --- CONFIGURATION ---PDF_TO_SCAN_DIR = "References/" 
 
 # --- FONCTIONS UTILITAIRES ---
 
@@ -33,7 +32,7 @@ def list_pdf_files(root: str):
         out.append({"path": f, "base": base, "norm": n, "year": year, "first_author": first_author})
     return out
 
-# --- PARSING & BIBLIOGRAPHIE ---
+# --- PARSING & BIBLIOGRAPHIE    ---
 
 def parse_reference(ref: str):
     raw = ref.replace("\n", " ").strip()
