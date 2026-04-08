@@ -1,5 +1,6 @@
 import sys
 import os
+from datetime import datetime
 #from turtle import color
 os.environ["QT_LOGGING_RULES"] = "qt.pdf.links=false"
 
@@ -17,6 +18,13 @@ from PySide6.QtWidgets import (
 
 import match_references
 import mistralAnalysisAPI_rerank as mistralAnalysisAPI
+
+if getattr(sys, 'frozen', False):
+    DOSSIER_ACTUEL = os.path.dirname(sys.executable)
+else:
+    DOSSIER_ACTUEL = os.path.dirname(os.path.abspath(__file__))
+
+CHEMIN_RAPPORT = os.path.join(DOSSIER_ACTUEL, "rapport_verifications_refs.md")
 
 
 INSERM_THEME = {
@@ -474,6 +482,23 @@ class MainWindow(QMainWindow):
             self.set_status("No jobs to verify. Run matching first.", "warning")
             return
 
+        self.verification_start_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+        main_article_path = getattr(self, 'main_pdf_line', None)
+        if main_article_path:
+            path_text = main_article_path.text().strip()
+            article_name = os.path.basename(path_text) if path_text else "Article_inconnu"
+        else:
+            article_name = "Article_inconnu"
+            
+        try:
+            with open(CHEMIN_RAPPORT, "a", encoding="utf-8") as f:
+                f.write(f"# Vérification lancée le {self.verification_start_time}\n\n")
+                f.write(f"# Article concerné : {article_name}\n\n")
+                #f.write("---\n\n")
+        except Exception as e:
+            print(f"Erreur init fichier auto : {e}")
+
         self.set_status("Verifying with Mistral… (streaming results)", "normal")
         self.btn_verify.setEnabled(False)
         self.btn_match.setEnabled(False)
@@ -499,6 +524,28 @@ class MainWindow(QMainWindow):
         selected = self.table.currentRow()
         if selected == idx:
             self.show_details(job)
+
+        try:
+            with open(CHEMIN_RAPPORT, "a", encoding="utf-8") as f:
+                ref_name = job.get("raw_citation", "Référence inconnue").replace('\n', ' ')
+                page = job.get("page", "Inconnue")
+                score = job.get("mistral_score", "N/A")
+                flag = "⚪️"
+                if isinstance(score, (int, float)):
+                    if score == 0.1:
+                        flag = "🔴"
+                    elif score == 0.5:
+                        flag = "🟠"
+                    elif score >= 0.8:
+                        flag = "🟢"
+                justification = job.get("mistral_justification", "N/A").replace('\n', ' ')
+                
+                f.write(f"### {flag} Référence : {ref_name}, Page : {page}\n\n")
+                f.write(f"- **Score Mistral :** {score}\n")
+                f.write(f"- **Justification :** {justification}\n\n")
+                f.write("---\n\n")
+        except Exception as e:
+            print(f"Erreur écriture temps réel : {e}")
 
     def on_verify_done(self):
         self.set_status("Verification finished.", "success")        

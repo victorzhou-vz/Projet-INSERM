@@ -11,6 +11,7 @@ from sentence_transformers import SentenceTransformer, util
 import torch
 import re
 import requests
+import sys
 
 import logging
 
@@ -72,11 +73,21 @@ def limit_text(s: str, max_chars: int) -> str:
 
 #1 Configuration
 
+if getattr(sys, 'frozen', False):
+    # Si le code est compilé par PyInstaller
+    dossier_actuel = os.path.dirname(sys.executable)
+else:
+    # Si le code est lancé normalement via Python
+    dossier_actuel = os.path.dirname(os.path.abspath(__file__))
+
+chemin_env = os.path.join(dossier_actuel, '.env')
+load_dotenv(chemin_env)
+
 # Mettez votre clé API Mistral ici
 MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY")
 if not MISTRAL_API_KEY:
     print("ATTENTION : Configurez votre MISTRAL_API_KEY avant de lancer.")
-    exit() # Décommentez pour arrêter le script si la clé n'est pas définie
+    sys.exit(1) # Décommentez pour arrêter le script si la clé n'est pas définie
 
 
 MISTRAL_MODEL = "mistral-small-latest" # Ou "mistral-large-latest"
@@ -94,13 +105,13 @@ try:
 except Exception as e:
     print(f"Erreur chargement SentenceTransformer: {e}")
     print("Veuillez installer 'sentence-transformers' et 'torch'.")
-    exit()
+    sys.exit(1)
 
 try:
     mistral_client = Mistral(api_key=MISTRAL_API_KEY)
 except Exception as e:
     print(f"Erreur client Mistral: {e}")
-    exit()
+    sys.exit(1)
 
 #3 Fonctions Utilitaires
 

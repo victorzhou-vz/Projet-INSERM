@@ -2,6 +2,7 @@
 from dotenv import load_dotenv
 load_dotenv()
 
+import sys
 import time
 import json
 import os
@@ -71,11 +72,21 @@ def limit_text(s: str, max_chars: int) -> str:
     return s[:max_chars]
 
 
+if getattr(sys, 'frozen', False):
+    # Si le code est compilé par PyInstaller
+    dossier_actuel = os.path.dirname(sys.executable)
+else:
+    # Si le code est lancé normalement via Python
+    dossier_actuel = os.path.dirname(os.path.abspath(__file__))
+
+chemin_env = os.path.join(dossier_actuel, '.env')
+load_dotenv(chemin_env)
+
 # 1) Configuration
 MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY")
 if not MISTRAL_API_KEY:
     print("ATTENTION : Configurez votre MISTRAL_API_KEY avant de lancer.")
-    exit()
+    sys.exit(1)
 
 MISTRAL_MODEL = "mistral-small-latest"
 INPUT_JSON = "verification_jobs.json"
@@ -104,13 +115,13 @@ try:
 except Exception as e:
     print(f"Erreur chargement modèles Sentence Transformers / Reranker: {e}")
     print("Veuillez installer 'sentence-transformers' et 'torch'.")
-    exit()
+    sys.exit(1)
 
 try:
     mistral_client = Mistral(api_key=MISTRAL_API_KEY)
 except Exception as e:
     print(f"Erreur client Mistral: {e}")
-    exit()
+    sys.exit(1)
 
 
 # 3) Utilities
