@@ -5,7 +5,7 @@ import time
 import json
 import os
 import pdfplumber
-from mistralai import Mistral
+from mistralai.client import Mistral
 from sentence_transformers import SentenceTransformer
 import requests
 import logging
@@ -302,4 +302,4 @@ def verify_jobs_stream(jobs, should_abort=None, use_ollama: bool = False):
         job["mistral_justification"] = str(mistral_result["justification"])
 
         yield i, job
-        time.sleep(0.2)
+        time.sleep(2)

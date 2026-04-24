@@ -5,7 +5,7 @@ import time
 import json
 import os
 import pdfplumber
-from mistralai import Mistral
+from mistralai.client import Mistral
 from sentence_transformers import SentenceTransformer
 import requests
 import logging

@@ -110,7 +110,7 @@ def load_reranker(model_name: str = "BAAI/bge-reranker-v2-m3") -> CrossEncoder:
     """
     Multilingual reranker that works well for French/English scientific text.
     """
-    return CrossEncoder(model_name)
+    return CrossEncoder(model_name, device='cpu')
 
 
 def retrieve_and_rerank_chunks(
@@ -174,7 +174,7 @@ def retrieve_and_rerank_chunks(
     # Precise reranking
     if reranker_model is not None and retrieved:
         pairs = [(context, item["text"]) for item in retrieved]
-        rerank_scores = reranker_model.predict(pairs)
+        rerank_scores = reranker_model.predict(pairs, batch_size=2)
 
         for item, rr_score in zip(retrieved, rerank_scores):
             rr_score = float(rr_score)

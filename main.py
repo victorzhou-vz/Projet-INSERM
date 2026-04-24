@@ -23,7 +23,7 @@ import match_references
 import mistralAnalysisAPI_rerank as mistralAnalysisAPI
 import rerank_specified_references as reranker_spec
 
-from mistralai import Mistral as MistralClient
+from mistralai.client import Mistral as MistralClient
 from voice_input import WhisperLoader, VoiceWorker
 
 
