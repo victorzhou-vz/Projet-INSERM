@@ -2025,3 +2025,70 @@
 
 ---
 
+# Vérification lancée le 2026-04-24 21:51:38
+
+# Article concerné : essai.pdf
+
+### 🔴 Référence : Holland M, 2014, Page : 1
+
+- *Score Mistral :* 0.1
+- *Justification :* La citation aborde le coût social de l'alcool et la monétarisation des conséquences socio-sanitaires, tandis que les extraits sources traitent exclusivement des coûts de la pollution atmosphérique industrielle en Europe (méthodologie, secteurs, pays, etc.). Aucun lien thématique, conceptuel ou méthodologique n'existe entre les deux sujets.
+
+---
+
+### 🔴 Référence : Chalfin A, 2015, Page : 1
+
+- *Score Mistral :* 0.1
+- *Justification :* La citation initiale aborde le coût social de l'alcool et la monétarisation des conséquences socio-sanitaires, en soulignant l'importance d'évaluer ces coûts pour comparer leur ampleur avec d'autres substances ou phénomènes. Les extraits fournis, quant à eux, traitent exclusivement du coût social de la criminalité (méthodologies d'estimation, transferts de ressources, évaluation des coûts tangibles et intangibles, etc.). Aucun des extraits ne mentionne l'alcool, les drogues licites ou illicites, ou ne fait référence à une évaluation économique des conséquences socio-sanitaires d'une substance psychoactive. Les deux sujets (coût social de l'alcool vs. coût social de la criminalité) sont distincts et sans lien logique apparent dans les extraits proposés.
+
+---
+
+### 🔴 Référence : Mao L -Z, Zhu H -G, Duan L -R, 2012, Page : 1
+
+- *Score Mistral :* 0.1
+- *Justification :* La citation parle du coût social de l'alcool et de la monétarisation des conséquences socio-sanitaires pour évaluer des phénomènes comme la consommation d'alcool. Les extraits fournis concernent exclusivement le coût social de la congestion automobile à Pékin (méthodes de calcul, coûts en milliards de yuans, répartition des coûts, etc.). Aucun des extraits ne mentionne l'alcool, les drogues, ou une évaluation de coût social liée à des substances psychoactives. Les sujets sont radicalement différents : un traite de la santé publique et des coûts évitables liés à une substance, l'autre de l'impact économique de la congestion routière. La correspondance est donc strictement hors sujet.
+
+---
+
+### 🟠 Référence : Markandya et Pearce, 1989, Page : 1
+
+- *Score Mistral :* 0.5
+- *Justification :* La citation mentionne que les drogues (dont l'alcool) ont été des précurseurs méthodologiques dans l'évaluation des coûts sociaux, et que cette approche permet de quantifier l'ampleur du problème et d'identifier les contributeurs principaux (décès, morbidité, dépenses publiques, pertes de productivité). Les extraits, bien que centrés sur le tabac, illustrent une méthodologie générale pour mesurer les coûts sociaux (distinction entre coûts privés et sociaux, matrice de calcul, limites des études existantes). Le lien est plausible car les deux textes soulignent l'importance de la quantification des coûts sociaux et la complexité méthodologique, mais la citation est plus générale (alcool) tandis que les extraits se concentrent sur le tabac. L'affirmation précise sur l'alcool n'est pas explicitement validée par ces extraits.
+
+---
+
+### 🟢 Référence : Bonaldi C, 2019, Page : 1
+
+- *Score Mistral :* 0.8
+- *Justification :* La citation aborde la question des contributeurs au coût social de l'alcool en France, en mentionnant des estimations de décès évitables (41 000 décès annuels) et de coût social (118 milliards d'euros). Les extraits fournissent des données précises sur le nombre de décès attribuables à l'alcool en 2015 (41 000 décès, dont 30 000 chez les hommes et 11 000 chez les femmes), ainsi que des détails sur les causes de ces décès (cancers, maladies cardiovasculaires, etc.). Bien que les extraits ne mentionnent pas explicitement le coût social en euros, ils confirment le nombre élevé de décès attribuables à l'alcool, ce qui est un élément clé de la citation. La correspondance est donc forte sur le fond (impact sanitaire et social de l'alcool), même si certains détails (coût en euros) ne sont pas directement présents dans les extraits.
+
+---
+
+### 🟠 Référence : Kopp, 2015, Page : 1
+
+- *Score Mistral :* 0.5
+- *Justification :* La citation aborde la question de l'identification des contributeurs au coût social (décès, morbidité, dépenses publiques, pertes de productivité) et des réponses publiques face à ces coûts, avec des exemples concrets (alcool, tabac). Les extraits soulignent les limites méthodologiques des études de coût social (hypothèses de calcul, comparabilité internationale, hiérarchisation des drogues) et la complexité des comparaisons entre pays. Bien que les extraits ne mentionnent pas explicitement les chiffres cités (41 000 décès, 118 milliards d'euros, etc.), ils confirment le cadre général de l'analyse des coûts sociaux et des enjeux méthodologiques, ce qui rend la correspondance plausible mais non littérale. Le sujet est globalement cohérent, mais l'affirmation précise de la citation n'est pas directement visible dans les extraits fournis.
+
+---
+
+### 🟠 Référence : Kopp et Ogrodnik, 2017, Page : 1
+
+- *Score Mistral :* 0.5
+- *Justification :* La citation aborde la question de l'identification des contributeurs au coût social de l'alcool (décès, morbidité, dépenses publiques, pertes de productivité) et interroge l'adéquation des réponses publiques face à ce coût. Les extraits source fournissent des données sur la répartition des coûts sociaux (pertes de vies humaines, qualité de vie, production) et leur estimation en France pour 2010, ainsi que des éléments méthodologiques (attributable fractions, valeur d'une vie, etc.). Bien que les extraits ne mentionnent pas explicitement les 118 milliards d'euros ou les 41 000 décès, ils confirment la structure des coûts sociaux (décès, morbidité, pertes de productivité) et leur quantification partielle. Le lien est plausible mais vague, car les chiffres précis de la citation ne sont pas directement repris dans les extraits.
+
+---
+
+### 🔴 Référence : Rehm et coll., 2014, Page : 2
+
+- *Score Mistral :* 0.1
+- *Justification :* La citation initiale parle de l'utilisation (ou non) d'un taux d'actualisation dans des travaux américains et belges, ainsi que des indicateurs QALY et DALY pour évaluer les interventions de santé. Les extraits fournis, bien qu'ils mentionnent les DALY et des méthodes de calcul (comme un taux de 3%), se concentrent exclusivement sur l'estimation du fardeau de la maladie lié aux troubles de l'usage de l'alcool (AUD) aux États-Unis. Aucun des extraits ne traite de l'utilisation d'un taux d'actualisation (3% ou autre) dans des travaux américains ou belges, ni ne discute des QALY comme indicateur. Les sujets sont donc totalement disjoints.
+
+---
+
+### 🟠 Référence : Verhaeghe et coll., 2017, Page : 2
+
+- *Score Mistral :* 0.5
+- *Justification :* La citation mentionne que certains travaux belges (comme Verhaeghe et coll., 2017) ne tiennent pas compte d'un taux d'actualisation dans leurs analyses, tandis que les extraits source (notamment l'étude de Verhaeghe et al., BMCPublicHealth, 2017) confirment cette absence de taux d'actualisation dans l'analyse des coûts sociaux liés à l'alcool en Belgique. Cependant, la citation ne précise pas explicitement que cette absence concerne spécifiquement les QALY/DALY ou les coûts sociaux, alors que les extraits se concentrent sur les coûts de l'alcool et les méthodes d'estimation. Le lien est plausible mais reste vague, car la citation est plus générale et les extraits sont spécifiques à une étude belge sur l'alcool.
+
+---
+

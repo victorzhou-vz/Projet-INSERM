@@ -300,7 +300,7 @@ def verify_jobs_stream(jobs, should_abort=None, use_ollama: bool = False):
         job["mistral_justification"] = str(mistral_result["justification"])
 
         yield i, job
-        time.sleep(0.2)
+        time.sleep(3)
 
     with open(OUTPUT_JSON_RESULTS, "w") as f:
         json.dump(jobs, f, indent=4, ensure_ascii=False)
