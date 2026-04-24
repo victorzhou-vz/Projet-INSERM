@@ -2,8 +2,16 @@ import os, glob, unicodedata, difflib
 import re
 from PyPDF2 import PdfReader
 import json
+import sys
 
-# --- CONFIGURATION ---PDF_TO_SCAN_DIR = "References/" 
+
+if getattr(sys, 'frozen', False):
+    DOSSIER_ACTUEL = os.path.dirname(sys.executable)
+else:
+    DOSSIER_ACTUEL = os.path.dirname(os.path.abspath(__file__))
+
+CHEMIN_BIBLIO = os.path.join(DOSSIER_ACTUEL, "bibliographie_organisee.txt")
+
 
 # --- FONCTIONS UTILITAIRES ---
 
@@ -79,7 +87,7 @@ def extraire_bibliographie_brute(main_pdf_path: str):
     if not matches: return ""
     return full_text[matches[-1].end():].strip()
 
-def organiser_bibliographie(biblio_brute: str, output_txt: str = "bibliographie_organisee.txt"):
+def organiser_bibliographie(biblio_brute: str, output_txt: str = CHEMIN_BIBLIO):
     if not biblio_brute: return []
     text_flux = " ".join(biblio_brute.split())
     pattern_rupture = r"((?:19|20)\d{2}[a-z]?|[0-9]+\s*p\.|[0-9]{2,}\s*[:;]\s*[0-9\-]+)[\.;]?\s+([A-Z][a-zA-ZÀ-ÖØ-öø-ÿ\-']+)"
